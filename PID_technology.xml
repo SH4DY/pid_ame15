@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<MDG.Technology version="1.0"><Documentation id="PID01" name="PID Technology" version="4" notes="PID Tedhnology bla"/><UMLProfiles><UMLProfile profiletype="uml2">
+			<Documentation id="EF09B7B5-2" name="P_ID" version="1.0" notes="P_ID"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Tank" metatype="Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPB8jkYdvUd+kgAAAPYAAAAHABEAc3RyLmRhdFVUDQAHnDQtVZw0LVWcNC1V
+RY/BCoJgEITnWuA7SF4KhMowqG5evPcGEkZCqaQHQ3r3vv1/+GPZYXeWmd0d9FClXrVivaga
+tZoVaamFBthRd7gncVMHdnprrZ1SZcqJlHqjC+otETO7wpVkAe99aqdv2GKOXn1weHJ4DB5/
+l0l7Jh+HE7uszoKjx55b7N4R9xbNCqz4wn45k0noE2a2wXRf8gdQSwECFwsUAAAACADwfI5G
+Hb1HfpIAAAD2AAAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHnDQtVVBLBQYAAAAA
+AQABAD4AAADIAAAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Capacity" type="int" description="" unit="" values="" default=""/>
+							<Tag name="Load" type="enumeration" description="" unit="" values="Empty,Full" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="animal" metatype="Animal" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGiCSz63++MALwEAACgEAAAHABEAc3RyLmRhdFVUDQAHiGFVTYhhVU2IYVVN
+lVJNa8JAFJxrC/4HjwqKRusX3irVo0IRzwGlBk0UE9pD6X/vvJfEZjdZtSy8XXZnZud9xNjD
+xxk71BHyFCDCN2p4xhM6XHW88faCOLvb4cgVkBHz3EAPA7TQZuxyf9HYZ2xi6mAMFZMzRso3
+Ge/EJZiTI8wZTownepDf+uS34GGie49rXGKuGKN/8WyP4kc85vmIR8nUzRhmdUgZI40mw53V
+Ql/WqnSpRDRLOuUcTZVXvd3q2aVU7PKSrwE+tP8+0dL3I9mh/pNk2C1RPr4UkxD7ydf4OkGi
+XqW9ISIg7qBu8kkK6Uj4CfcGO+Pp/BQrJvWNroh2NmtS4T+MrSJ1l8lyq6S9NTG2ingZPOBF
+ZtnO2dQac+Ju5+U9kNekwrOtcj+v1MutvHIvxbx+NP4CUEsBAhcLFAAAAAgAaIJLPrf74wAv
+AQAAKAQAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB4hhVU1QSwUGAAAAAAEAAQA+
+AAAAZQEAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles><DiagramProfile><UMLProfile profiletype="uml2">
+			<Documentation id="6B2A4761-B" name="P_ID" version="1.0" notes="P_ID"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="P_ID" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Diagram_Logical">
+								<Property name="alias" value="ecoSystem"/>
+								<Property name="diagramID" value="eco"/>
+								<Property name="toolbox" value="P_ID"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+			</Content>
+		</UMLProfile>
+	</DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
+			<Documentation id="EF0A1A1D-6" name="P_ID" version="1.0" notes="P_ID"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="P_IDElements" alias="ecoSystem" notes="The things that can be added to a diagram." cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="P_ID::animal(UML::Class)" type="" description="" unit="" values="" default="Animal"/>
+							<Tag name="P_ID::Tank(UML::Class)" type="" description="" unit="" values="" default="Tank"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+			</Content>
+		</UMLProfile>
+	</UIToolboxes></MDG.Technology>

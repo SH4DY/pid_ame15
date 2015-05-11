@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="EF0A1A1D-6" name="P_ID" version="1.0" notes="P_ID"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="P_IDElements" alias="ecoSystem" notes="The things that can be added to a diagram." cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="P_ID::animal(UML::Class)" type="" description="" unit="" values="" default="Animal"/>
+					<Tag name="P_ID::Tank(UML::Class)" type="" description="" unit="" values="" default="Tank"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

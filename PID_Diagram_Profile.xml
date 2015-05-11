@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="6B2A4761-B" name="P_ID" version="1.0" notes="P_ID"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="P_ID" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="alias" value="ecoSystem"/>
+						<Property name="diagramID" value="eco"/>
+						<Property name="toolbox" value="P_ID"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
