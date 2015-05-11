@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<MDG.Technology version="1.0"><Documentation id="PID01" name="PID Technology" version="4" notes="PID Tedhnology bla"/><UMLProfiles><UMLProfile profiletype="uml2">
+<MDG.Technology version="1.0"><Documentation id="PID01" name="PID Technology" version="5" notes="PID Tedhnology bla"/><UMLProfiles><UMLProfile profiletype="uml2">
 			<Documentation id="EF09B7B5-2" name="P_ID" version="1.0" notes="P_ID"/>
 			<Content>
 				<Stereotypes>
+					<Stereotype name="Collector Array" metatype="Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
 					<Stereotype name="Tank" metatype="Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPB8jkYdvUd+kgAAAPYAAAAHABEAc3RyLmRhdFVUDQAHnDQtVZw0LVWcNC1V
-RY/BCoJgEITnWuA7SF4KhMowqG5evPcGEkZCqaQHQ3r3vv1/+GPZYXeWmd0d9FClXrVivaga
-tZoVaamFBthRd7gncVMHdnprrZ1SZcqJlHqjC+otETO7wpVkAe99aqdv2GKOXn1weHJ4DB5/
-l0l7Jh+HE7uszoKjx55b7N4R9xbNCqz4wn45k0noE2a2wXRf8gdQSwECFwsUAAAACADwfI5G
-Hb1HfpIAAAD2AAAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHnDQtVVBLBQYAAAAA
-AQABAD4AAADIAAAAAAA=</Image>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxiq0bipJLXvQAAAD4CAAAHABEAc3RyLmRhdFVUDQAH/p5QVf6eUFX+nlBV
+jZLLCsIwEEXvVsF/KHZTwYUVBB8rP6XUimJftMGN+O+e9KG2VpSQO8nMnZncIaVOCpQrkqOE
+01mpbpporJFKvEZHfDErVAZmKuRpqRVr3rMz7ZrMGvdwQ9gLGE6DPrZ/shW6uOlU+7eOzRqy
+ny9r9RkUF2CONUzCe2MmaL1WE8jw+1Utiy9GXE2rZaz/ZFj8xqi7/GZ0u0TED4MarMKCvAuc
+oXiNORzbw9ArJT4FA/TbP7Flu8+7S6zNvrMfUEsBAhcLFAAAAAgAzGKrRuKkkte9AAAAPgIA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB/6eUFVQSwUGAAAAAAEAAQA+AAAA8wAA
+AAAA</Image>
 						<AppliesTo>
 							<Apply type="Class">
 								<Property name="isActive" value=""/>
