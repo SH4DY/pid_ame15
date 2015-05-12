@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<MDG.Technology version="1.0"><Documentation id="PID01" name="PID Technology" version="5" notes="PID Tedhnology bla"/><UMLProfiles><UMLProfile profiletype="uml2">
+<MDG.Technology version="1.0"><Documentation id="PID01" name="PID Technology" version="6" notes="P&amp;ID Technology (AME2015)"/><UMLProfiles><UMLProfile profiletype="uml2">
 			<Documentation id="EF09B7B5-2" name="P_ID" version="1.0" notes="P_ID"/>
 			<Content>
 				<Stereotypes>
-					<Stereotype name="Collector Array" metatype="Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+					<Stereotype name="Collector Array" metatype="CollectorArray" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAP6NrEam08lkqwAAANQBAAAHABEAc3RyLmRhdFVUDQAHozxSVaM8UlWjPFJV
+fU/LCsIwEJyrgv/gsUIPbUEi+DXSVhRbU9LQi/jvzqZdUrWUkM0yj91Jjxsu6FBjj5bdHU+8
+sMMWG/REPa7EGp4SltXCIUGBI0/68x5wnpzq95zoWDu+npuSmablrCFssMQzTjGskW9CFuWF
+S1d5yZGvKISTHfOc34r/DDXZajG9/M3R9aBmiR+r/L4kLtkME0jCgvUUdkVUu+hXpwl64UdP
+PmkV1U6db94PUEsBAhcLFAAAAAgA/o2sRqbTyWSrAAAA1AEAAAcACQAAAAAAAAAAAACAAAAA
+AHN0ci5kYXRVVAUAB6M8UlVQSwUGAAAAAAEAAQA+AAAA4QAAAAAA</Image>
 						<AppliesTo>
 							<Apply type="Class">
 								<Property name="isActive" value=""/>
 							</Apply>
 						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Slope" type="int" description="" unit="" values="" default=""/>
+							<Tag name="SurfaceArea" type="int" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Pipe" metatype="Pipe" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAqOrEZyWFlZhQAAAPIAAAAHABEAc3RyLmRhdFVUDQAH1TxSVdU8UlXVPFJV
+XY3NCoJAFIW/bYLvIK4MBC1o5S5qEUiueoCIiQJtIiUI8d07KoIjhztzD+fn1jy48sYQUGl7
+8qLFx2NFIgQcKLiwJ+colnPirG101Mo13JUqhRtWr+VDxJadEC/+NZmTLId7RqzhJ2aUDJ2L
+4SxTqfs75Kx8qVrTmTp1jepGmuvop9P8AVBLAQIXCxQAAAAIAAqOrEZyWFlZhQAAAPIAAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfVPFJVUEsFBgAAAAABAAEAPgAAALsAAAAA
+AA==</Image>
+						<AppliesTo>
+							<Apply type="Connector">
+								<Property name="direction" value="Source -&gt; Destination"/>
+								<Property name="kind" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Pump" metatype="Pump" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOKNrEarGm/hlAAAAH4BAAAHABEAc3RyLmRhdFVUDQAHtTxSVbU8UlW1PFJV
+hY/NCsIwEIS/q4Lv4FGhBxWUgk8T2krF1khTvIjv7iT+pLGCLJmEnZndiaPGcKFiTqvXkTM3
+ZkyZ4NTtOajXqAqs0NKxYMNWlX3dS/Yv5xONtEVQr4LGYz7AYT9inOK03c/olc8Ia82KbKss
+15DQfnbsEn8TfvNWrEPSPMmZKjz3TzHeUokvfyb0+Tv5TtKM+bvOA1BLAQIXCxQAAAAIAOKN
+rEarGm/hlAAAAH4BAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAe1PFJVUEsFBgAA
+AAABAAEAPgAAAMoAAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
+							<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
+						</TaggedValues>
 					</Stereotype>
 					<Stereotype name="Tank" metatype="Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxiq0bipJLXvQAAAD4CAAAHABEAc3RyLmRhdFVUDQAH/p5QVf6eUFX+nlBV
@@ -28,22 +69,6 @@ AAAA</Image>
 							<Tag name="Load" type="enumeration" description="" unit="" values="Empty,Full" default=""/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="animal" metatype="Animal" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGiCSz63++MALwEAACgEAAAHABEAc3RyLmRhdFVUDQAHiGFVTYhhVU2IYVVN
-lVJNa8JAFJxrC/4HjwqKRusX3irVo0IRzwGlBk0UE9pD6X/vvJfEZjdZtSy8XXZnZud9xNjD
-xxk71BHyFCDCN2p4xhM6XHW88faCOLvb4cgVkBHz3EAPA7TQZuxyf9HYZ2xi6mAMFZMzRso3
-Ge/EJZiTI8wZTownepDf+uS34GGie49rXGKuGKN/8WyP4kc85vmIR8nUzRhmdUgZI40mw53V
-Ql/WqnSpRDRLOuUcTZVXvd3q2aVU7PKSrwE+tP8+0dL3I9mh/pNk2C1RPr4UkxD7ydf4OkGi
-XqW9ISIg7qBu8kkK6Uj4CfcGO+Pp/BQrJvWNroh2NmtS4T+MrSJ1l8lyq6S9NTG2ingZPOBF
-ZtnO2dQac+Ju5+U9kNekwrOtcj+v1MutvHIvxbx+NP4CUEsBAhcLFAAAAAgAaIJLPrf74wAv
-AQAAKAQAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB4hhVU1QSwUGAAAAAAEAAQA+
-AAAAZQEAAAAA</Image>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
 				</Stereotypes>
 				<TaggedValueTypes/>
 			</Content>
@@ -55,7 +80,7 @@ AAAAZQEAAAAA</Image>
 					<Stereotype name="P_ID" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 						<AppliesTo>
 							<Apply type="Diagram_Logical">
-								<Property name="alias" value="ecoSystem"/>
+								<Property name="alias" value="P&amp;ID Diagram"/>
 								<Property name="diagramID" value="eco"/>
 								<Property name="toolbox" value="P_ID"/>
 							</Apply>
@@ -66,16 +91,73 @@ AAAAZQEAAAAA</Image>
 			</Content>
 		</UMLProfile>
 	</DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
-			<Documentation id="EF0A1A1D-6" name="P_ID" version="1.0" notes="P_ID"/>
+			<Documentation id="EF09B7B5-2" name="P_ID" version="1.0" notes="P_ID"/>
 			<Content>
 				<Stereotypes>
-					<Stereotype name="P_IDElements" alias="ecoSystem" notes="The things that can be added to a diagram." cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+					<Stereotype name="Collector Array" metatype="CollectorArray" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAP6NrEam08lkqwAAANQBAAAHABEAc3RyLmRhdFVUDQAHozxSVaM8UlWjPFJV
+fU/LCsIwEJyrgv/gsUIPbUEi+DXSVhRbU9LQi/jvzqZdUrWUkM0yj91Jjxsu6FBjj5bdHU+8
+sMMWG/REPa7EGp4SltXCIUGBI0/68x5wnpzq95zoWDu+npuSmablrCFssMQzTjGskW9CFuWF
+S1d5yZGvKISTHfOc34r/DDXZajG9/M3R9aBmiR+r/L4kLtkME0jCgvUUdkVUu+hXpwl64UdP
+PmkV1U6db94PUEsBAhcLFAAAAAgA/o2sRqbTyWSrAAAA1AEAAAcACQAAAAAAAAAAAACAAAAA
+AHN0ci5kYXRVVAUAB6M8UlVQSwUGAAAAAAEAAQA+AAAA4QAAAAAA</Image>
 						<AppliesTo>
-							<Apply type="ToolboxPage"/>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
 						</AppliesTo>
 						<TaggedValues>
-							<Tag name="P_ID::animal(UML::Class)" type="" description="" unit="" values="" default="Animal"/>
-							<Tag name="P_ID::Tank(UML::Class)" type="" description="" unit="" values="" default="Tank"/>
+							<Tag name="Slope" type="int" description="" unit="" values="" default=""/>
+							<Tag name="SurfaceArea" type="int" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Pipe" metatype="Pipe" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAqOrEZyWFlZhQAAAPIAAAAHABEAc3RyLmRhdFVUDQAH1TxSVdU8UlXVPFJV
+XY3NCoJAFIW/bYLvIK4MBC1o5S5qEUiueoCIiQJtIiUI8d07KoIjhztzD+fn1jy48sYQUGl7
+8qLFx2NFIgQcKLiwJ+colnPirG101Mo13JUqhRtWr+VDxJadEC/+NZmTLId7RqzhJ2aUDJ2L
+4SxTqfs75Kx8qVrTmTp1jepGmuvop9P8AVBLAQIXCxQAAAAIAAqOrEZyWFlZhQAAAPIAAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfVPFJVUEsFBgAAAAABAAEAPgAAALsAAAAA
+AA==</Image>
+						<AppliesTo>
+							<Apply type="Connector">
+								<Property name="direction" value="Source -&gt; Destination"/>
+								<Property name="kind" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Pump" metatype="Pump" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOKNrEarGm/hlAAAAH4BAAAHABEAc3RyLmRhdFVUDQAHtTxSVbU8UlW1PFJV
+hY/NCsIwEIS/q4Lv4FGhBxWUgk8T2krF1khTvIjv7iT+pLGCLJmEnZndiaPGcKFiTqvXkTM3
+ZkyZ4NTtOajXqAqs0NKxYMNWlX3dS/Yv5xONtEVQr4LGYz7AYT9inOK03c/olc8Ia82KbKss
+15DQfnbsEn8TfvNWrEPSPMmZKjz3TzHeUokvfyb0+Tv5TtKM+bvOA1BLAQIXCxQAAAAIAOKN
+rEarGm/hlAAAAH4BAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAe1PFJVUEsFBgAA
+AAABAAEAPgAAAMoAAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
+							<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Tank" metatype="Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxiq0bipJLXvQAAAD4CAAAHABEAc3RyLmRhdFVUDQAH/p5QVf6eUFX+nlBV
+jZLLCsIwEEXvVsF/KHZTwYUVBB8rP6XUimJftMGN+O+e9KG2VpSQO8nMnZncIaVOCpQrkqOE
+01mpbpporJFKvEZHfDErVAZmKuRpqRVr3rMz7ZrMGvdwQ9gLGE6DPrZ/shW6uOlU+7eOzRqy
+ny9r9RkUF2CONUzCe2MmaL1WE8jw+1Utiy9GXE2rZaz/ZFj8xqi7/GZ0u0TED4MarMKCvAuc
+oXiNORzbw9ArJT4FA/TbP7Flu8+7S6zNvrMfUEsBAhcLFAAAAAgAzGKrRuKkkte9AAAAPgIA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB/6eUFVQSwUGAAAAAAEAAQA+AAAA8wAA
+AAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Capacity" type="int" description="" unit="" values="" default=""/>
+							<Tag name="Load" type="enumeration" description="" unit="" values="Empty,Full" default=""/>
 						</TaggedValues>
 					</Stereotype>
 				</Stereotypes>

@@ -6,7 +6,7 @@
 			<Stereotype name="P_ID" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Diagram_Logical">
-						<Property name="alias" value="ecoSystem"/>
+						<Property name="alias" value="P&amp;ID Diagram"/>
 						<Property name="diagramID" value="eco"/>
 						<Property name="toolbox" value="P_ID"/>
 					</Apply>
