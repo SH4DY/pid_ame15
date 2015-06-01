@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
 	<Documentation id="EF09B7B5-2" name="P_ID" version="1.0" notes="P_ID"/>
-	
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Collector Array" metatype="CollectorArray" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -21,6 +20,22 @@ AHN0ci5kYXRVVAUAB6M8UlVQSwUGAAAAAAEAAQA+AAAA4QAAAAAA</Image>
 					<Tag name="SurfaceArea" type="int" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
+			<Stereotype name="Heat Exchanger" metatype="Heat Exchanger" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHqqwUarqnDWeQAAAGYBAAAHABEAc3RyLmRhdFVUDQAHYcxsVWHMbFVhzGxV
+K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDgZioCiyQwlQNE8hnSGHCBPg8GQwYBBh8EITJqA
+SZCIAYMmgzVUVy5DPkMZUG0IkNYAqjSFqkeoyAHbgqoCtwkQW0AkLhPMsKjAZoYFQTNQVWDz
+CbpvsfnFEMW/tUAMAFBLAQIXCxQAAAAIAHqqwUarqnDWeQAAAGYBAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAdhzGxVUEsFBgAAAAABAAEAPgAAAK8AAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
+					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
 			<Stereotype name="Pipe" metatype="Pipe" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAqOrEZyWFlZhQAAAPIAAAAHABEAc3RyLmRhdFVUDQAH1TxSVdU8UlXVPFJV
 XY3NCoJAFIW/bYLvIK4MBC1o5S5qEUiueoCIiQJtIiUI8d07KoIjhztzD+fn1jy48sYQUGl7
@@ -36,11 +51,11 @@ AA==</Image>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Pump" metatype="Pump" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOKNrEarGm/hlAAAAH4BAAAHABEAc3RyLmRhdFVUDQAHtTxSVbU8UlW1PFJV
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJKOrEarGm/hlAAAAH4BAAAHABEAc3RyLmRhdFVUDQAH2T1SVdk9UlXZPVJV
 hY/NCsIwEIS/q4Lv4FGhBxWUgk8T2krF1khTvIjv7iT+pLGCLJmEnZndiaPGcKFiTqvXkTM3
 ZkyZ4NTtOajXqAqs0NKxYMNWlX3dS/Yv5xONtEVQr4LGYz7AYT9inOK03c/olc8Ia82KbKss
-15DQfnbsEn8TfvNWrEPSPMmZKjz3TzHeUokvfyb0+Tv5TtKM+bvOA1BLAQIXCxQAAAAIAOKN
-rEarGm/hlAAAAH4BAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAe1PFJVUEsFBgAA
+15DQfnbsEn8TfvNWrEPSPMmZKjz3TzHeUokvfyb0+Tv5TtKM+bvOA1BLAQIXCxQAAAAIAJKO
+rEarGm/hlAAAAH4BAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfZPVJVUEsFBgAA
 AAABAAEAPgAAAMoAAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
