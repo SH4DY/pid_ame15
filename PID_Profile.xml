@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
 	<Documentation id="EF09B7B5-2" name="P_ID" version="1.0" notes="P_ID"/>
+	
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Collector Array" metatype="CollectorArray" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
