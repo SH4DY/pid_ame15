@@ -193,6 +193,14 @@ AA==</Image>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="PipePort" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKJswkZYNW3GBQEAAPAEAAAHABEAc3RyLmRhdFVUDQAHnbFtVZ2xbVWdsW1V
+tVTLDoJADJyzif9AOGHCwRcnvwYV0QhqdomJGv/daZGIKwcgkoYudGc6HSBrsUeMCxJ4yHl3
+wAljjPDQ7GHLnR0s63feBVhgilDzBKs3xqIg0zBfuBbsGNR2y3xgl0C1LFEGZ9UUzo11X5mG
+lRMrCVVTZp9KPp8F67Pj5N2rms2NnMgrecIIdM4Zc31SNzL1WzEi5bTHl91/VZ5/cr4mtlCt
+vKf/9l5K764TN5r9D+E9g/x3RQ/fTVO58e1D0OK/LX7o727ITcns476b88pJF/fNzl2OGyVO
+3G4bTwmr/XdUyhgbKmW8jM4Y8bwJMafiUteI8WFWnFh7y1kk7/rIfr86T7wAUEsBAhcLFAAA
+AAgAomzCRlg1bcYFAQAA8AQAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB52xbVVQ
+SwUGAAAAAAEAAQA+AAAAOwEAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Port">
 						<Property name="isBehavior" value="false"/>
@@ -271,12 +279,12 @@ AAAA</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Storage Tank with internal Heat Exchanger" metatype="Storage Tank with internal Heat Exchanger" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACC+wUZqrErgvwAAALoCAAAHABEAc3RyLmRhdFVUDQAHbO9sVWzvbFVs72xV
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMZlwkZqrErgvwAAALoCAAAHABEAc3RyLmRhdFVUDQAHm6VtVZulbVWbpW1V
 lZLBCsIwEETnquA/iL1E8KCCYPXkpxQtKNoa0uBF/HdnG9TEpFQPmU3Zt5PdpQ2OKKBRYoyK
 txNq3DHCsD0D7GCwh8IcMxJOF4zft1WkOeMU2z99pCoVfS+nDSz7NVTNaDmH8pgKV9w4lWVU
 9BcX0Q9xaWd9EesEEXo4QrTLw70SEiXzh2SH0r9h3ZlMKp/qQXYku+rqYPkzEe8zfinv9ekn
-wm34qjm98JZ1NfkJtWAX8idueLL3d8Zc6PHgeQJQSwECFwsUAAAACAAgvsFGaqxK4L8AAAC6
-AgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHbO9sVVBLBQYAAAAAAQABAD4AAAD1
+wm34qjm98JZ1NfkJtWAX8idueLL3d8Zc6PHgeQJQSwECFwsUAAAACADGZcJGaqxK4L8AAAC6
+AgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHm6VtVVBLBQYAAAAAAQABAD4AAAD1
 AAAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
