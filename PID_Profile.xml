@@ -192,6 +192,15 @@ AA==</Image>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
+			<Stereotype name="PipePort" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Port">
+						<Property name="isBehavior" value="false"/>
+						<Property name="isConjugated" value="false"/>
+						<Property name="isService" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
 			<Stereotype name="Pump" metatype="Pump" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJKOrEarGm/hlAAAAH4BAAAHABEAc3RyLmRhdFVUDQAH2T1SVdk9UlXZPVJV
 hY/NCsIwEIS/q4Lv4FGhBxWUgk8T2krF1khTvIjv7iT+pLGCLJmEnZndiaPGcKFiTqvXkTM3

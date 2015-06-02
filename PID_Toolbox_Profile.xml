@@ -3,7 +3,7 @@
 	<Documentation id="EF0A1A1D-6" name="P_ID" version="1.0" notes="P_ID"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="P_IDElements" alias="ecoSystem" notes="The things that can be added to a diagram." cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="P_IDElements" alias="ecoSystem" notes="P&amp;ID Elements for usage in solar plant diagrams." cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
@@ -20,6 +20,7 @@
 					<Tag name="P_ID::Heat Exchanger(UML::Class)" type="" description="" unit="" values="" default=""/>
 					<Tag name="P_ID::Open Valve(UML::Class)" type="" description="" unit="" values="" default=""/>
 					<Tag name="P_ID::Pipe(UML::Connector)" type="" description="" unit="" values="" default=""/>
+					<Tag name="P_ID::PipePort(UML::Port)" type="" description="" unit="" values="" default=""/>
 					<Tag name="P_ID::Pump(UML::Class)" type="" description="" unit="" values="" default=""/>
 					<Tag name="P_ID::Relief Valve (Pressure, Temperator)(UML::Class)" type="" description="" unit="" values="" default=""/>
 					<Tag name="P_ID::Remote Control Valve(UML::Class)" type="" description="" unit="" values="" default=""/>
