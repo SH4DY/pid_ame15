@@ -1,2 +1,4 @@
-*.ldb
+#Enterprise Architect files
+*.ldb 
 *.DTD
+*.mts
