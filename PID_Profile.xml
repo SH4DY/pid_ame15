@@ -98,7 +98,7 @@ AHN0ci5kYXRVVAUAB6M8UlVQSwUGAAAAAAEAAQA+AAAA4QAAAAAA</Image>
 					<Tag name="SurfaceArea" type="int" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Drain Back Storage Tank" metatype="Drain Back Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Drain Back Storage Tank" metatype="Drain Back Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANAAwkaRbgQZZQAAAAABAAAHABEAc3RyLmRhdFVUDQAHgPNsVYDzbFWA82xV
 fY3BCkBgEIS/K+UdHCkHJJKnkYT6f4Rc5N2tPwcKl9ndmdmZmZaSkRoXLVtHz4aDjcUkbMUi
 bE+DkssjJiQgMpgazAV9iutHM7CKc5HpkRjHXVem4amfaf8Jz46vjG9P9urZBQ9QSwECFwsU
@@ -114,7 +114,7 @@ VVBLBQYAAAAAAQABAD4AAACbAAAAAAA=</Image>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Expansion Tank" metatype="Expansion Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Expansion Tank" metatype="Expansion Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABYBwkbUGaZuYQAAANoAAAAHABEAc3RyLmRhdFVUDQAH6/NsVevzbFXr82xV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDgZioCiyQwlQNE8hnSGHCBPg8GAQQeMTeCkJoM1
 VH0uQz5DGVBVCZCGqDRDkc8Bmw6Th5iAqgLVBCMsKlDNgKhAdQWIrAViAFBLAQIXCxQAAAAI
@@ -130,7 +130,7 @@ BgAAAAABAAEAPgAAAJcAAAAAAA==</Image>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Expansion Tank / Air Separator" metatype="Expansion Tank / Air Separator" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Expansion Tank / Air Separator" metatype="Expansion Tank / Air Separator" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJgBwkYaYFHufgAAAFIBAAAHABEAc3RyLmRhdFVUDQAH/PRsVfz0bFX89GxV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDgZioCiyQwlQNE8hnSGHCBPg8GAQQeMTeCkJoM1
 HvWGDKZAdaZg1UZgtiWKHgiZy5DPUAZUXwKkIXZYoKjKAbsLJg8xE1UFqglGYDNAtuIyA6IC
@@ -253,15 +253,15 @@ rUx+QzVfewifkyJ+OdfJEAuPU/+/ibBiUxVsz41eUJnoN81xpSq1GvPbYr3qRvywfwFQSwEC
 FwsUAAAACAASS8NGEiIuJdQAAADIAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
 ucduVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
 				<AppliesTo>
-					<Apply type="Note"/>
 					<Apply type="Text"/>
+					<Apply type="Note"/>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Storage Tank" metatype="Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Storage Tank" metatype="Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGwAwkbrtZQNhwAAAP4BAAAHABEAc3RyLmRhdFVUDQAH6vJsVerybFXq8mxV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDihZBFQLpmhBCiXx5DOkAPkaTAYMRgw6EBJMzBp
 ASQ1GayhenIZ8hnKgCpLgLQGWN4QRT4HbE8qQwhY3ojBlCgVIPsQKnDZZEnQHMIqUH2DzSaQ
@@ -273,12 +273,8 @@ AAAA</Image>
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
-					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Storage Tank with internal Heat Exchanger" metatype="Storage Tank with internal Heat Exchanger" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Storage Tank with internal Heat Exchanger" metatype="Storage Tank with internal Heat Exchanger" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMZlwkZqrErgvwAAALoCAAAHABEAc3RyLmRhdFVUDQAHm6VtVZulbVWbpW1V
 lZLBCsIwEETnquA/iL1E8KCCYPXkpxQtKNoa0uBF/HdnG9TEpFQPmU3Zt5PdpQ2OKKBRYoyK
 txNq3DHCsD0D7GCwh8IcMxJOF4zft1WkOeMU2z99pCoVfS+nDSz7NVTNaDmH8pgKV9w4lWVU
