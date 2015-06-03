@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<MDG.Technology version="1.0"><Documentation id="PID" name="PID Technology" version="13" notes="PID Tech"/><UMLProfiles><UMLProfile profiletype="uml2">
+<MDG.Technology version="1.0"><Documentation id="PID" name="PID Technology" version="15" notes="PID Tech"/><UMLProfiles><UMLProfile profiletype="uml2">
 			<Documentation id="EF09B7B5-2" name="P_ID" version="1.0" notes="P_ID"/>
 			<Content>
 				<Stereotypes>
@@ -190,6 +190,7 @@ AA==</Image>
 								<Property name="direction" value="Source -&gt; Destination"/>
 								<Property name="kind" value=""/>
 							</Apply>
+							<Apply type="InformationFlow"/>
 						</AppliesTo>
 					</Stereotype>
 					<Stereotype name="PipePort" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -210,12 +211,12 @@ SwUGAAAAAAEAAQA+AAAAOwEAAAAA</Image>
 						</AppliesTo>
 					</Stereotype>
 					<Stereotype name="Pump" metatype="Pump" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJKOrEarGm/hlAAAAH4BAAAHABEAc3RyLmRhdFVUDQAH2T1SVdk9UlXZPVJV
-hY/NCsIwEIS/q4Lv4FGhBxWUgk8T2krF1khTvIjv7iT+pLGCLJmEnZndiaPGcKFiTqvXkTM3
-ZkyZ4NTtOajXqAqs0NKxYMNWlX3dS/Yv5xONtEVQr4LGYz7AYT9inOK03c/olc8Ia82KbKss
-15DQfnbsEn8TfvNWrEPSPMmZKjz3TzHeUokvfyb0+Tv5TtKM+bvOA1BLAQIXCxQAAAAIAJKO
-rEarGm/hlAAAAH4BAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfZPVJVUEsFBgAA
-AAABAAEAPgAAAMoAAAAAAA==</Image>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGJNw0YPixo0iQAAAGgBAAAHABEAc3RyLmRhdFVUDQAHVcxuVVXMblVVzG5V
+hZDNCoJQEEbP1qB3aGngQoMi6GlChaQs0Usb6d39xqtpZLSYby4zZ/5uw4UzFTkbSr0K7rSs
+WRHQ4BSppZW8Exmy5TRkSx48VefkQ3bERBykE3Hru41Ewl7EUfqLsNw/4ntKrny2uKHtX6vu
+KuYzHwzE0iU2Yd7ffiB9X+jV7+F1Hp90rDd7yTpQSwECFwsUAAAACABiTcNGD4saNIkAAABo
+AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHVcxuVVBLBQYAAAAAAQABAD4AAAC/
+AAAAAAA=</Image>
 						<AppliesTo>
 							<Apply type="Class">
 								<Property name="isActive" value=""/>
@@ -244,17 +245,16 @@ CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB2j5bFVQSwUGAAAAAAEAAQA+AAAAugAAAAAA
 						</TaggedValues>
 					</Stereotype>
 					<Stereotype name="Remote Control Valve" metatype="Remote Control Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMYFwkYSIi4l1AAAAMgCAAAHABEAc3RyLmRhdFVUDQAH2/xsVdv8bFXb/GxV
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABJLw0YSIi4l1AAAAMgCAAAHABEAc3RyLmRhdFVUDQAHucduVbnHblW5x25V
 hZK5DsIwEESnDRL/QBkkCkiAhooCaiS+AIVwCHLIsWgQ/874iBITJ8jyIfvN7HrtCjecUCLF
 BBlXd+R4Y4wRAlTclbhw78mWoOBYQCDEHDPbp9ho2igynr+0qrBU3GIC6pV/fR51CJ+LoZaW
 CixTZyiZs+BYcpa8S/gnmhr7CBWjidRPDHm42Rpix/MzDk6G7j32tsZbTR7JCbo96Oqq2hpf
 rUx+QzVfewifkyJ+OdfJEAuPU/+/ibBiUxVsz41eUJnoN81xpSq1GvPbYr3qRvywfwFQSwEC
-FwsUAAAACADGBcJGEiIuJdQAAADIAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
-2/xsVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
+FwsUAAAACAASS8NGEiIuJdQAAADIAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+ucduVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
 						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
+							<Apply type="Note"/>
+							<Apply type="Text"/>
 						</AppliesTo>
 						<TaggedValues>
 							<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
