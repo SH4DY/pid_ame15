@@ -4,11 +4,11 @@
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Air Vent" metatype="Air Vent" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOQCwkbAR08cXQAAADQBAAAHABEAc3RyLmRhdFVUDQAHdvdsVXb3bFV292xV
-K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiB/HyGMqBMCZDWYDBhMGDQYTAEkpoM1lAVOWD1
-MBXGDKZAFcZ4VJgQoQLTFtyuIWySKYoKVDOMsKhANcMMQ0UtEAMAUEsBAhcLFAAAAAgA5ALC
-RsBHTxxdAAAANAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3b3bFVQSwUGAAAA
-AAEAAQA+AAAAkwAAAAAA</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABxqw0alG/fjaAAAAFgBAAAHABEAc3RyLmRhdFVUDQAHPv5uVT7+blU+/m5V
+K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDihpAtQLo0hGChTBWRpMJgwGDDogElNBmuomlyG
+fIYyoGwJkNZgMAKrQJbPAZuLkDcFyoNU4VJhSFAFph24XULYHHy+wZRHNQEzPGqBGABQSwEC
+FwsUAAAACAAcasNGpRv342gAAABYAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+Pv5uVVBLBQYAAAAAAQABAD4AAACeAAAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -19,7 +19,7 @@ AAEAAQA+AAAAkwAAAAAA</Image>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Ball Valve" metatype="Ball Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Ball Valve" metatype="Ball Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEAHwkYnVICUOAAAAEwAAAAHABEAc3RyLmRhdFVUDQAHmP9sVZj/bFWY/2xV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4wJiTIQcskspQwpDPoMFgxGDAoAMmNRmsoSogZC2Q
 BABQSwECFwsUAAAACABAB8JGJ1SAlDgAAABMAAAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRh
@@ -29,10 +29,6 @@ dFVUBQAHmP9sVVBLBQYAAAAAAQABAD4AAABuAAAAAAA=</Image>
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
-					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Boiler Drain" metatype="Boiler Drain" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADAHwkYTa+MwNgAAAEYAAAAHABEAc3RyLmRhdFVUDQAHhP9sVYT/bFWE/2xV
@@ -48,7 +44,7 @@ VAUAB4T/bFVQSwUGAAAAAAEAAQA+AAAAbAAAAAAA</Image>
 					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Check Valve" metatype="Check Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Check Valve" metatype="Check Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEAEwkYymevxVAAAAO4AAAAHABEAc3RyLmRhdFVUDQAHGPpsVRj6bFUY+mxV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiB/HyGMqBMCZDWYDBg0GEwBpKaDNZQ+Rywapi8
 GRYVqCYYQVWY4jQDosIIjwoTgmZAVKCaASJrgRgAUEsBAhcLFAAAAAgAQATCRjKZ6/FUAAAA
@@ -59,12 +55,8 @@ igAAAAAA</Image>
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
-					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Closed Valve" metatype="Closed Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Closed Valve" metatype="Closed Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIoFwkb5l9GUrQAAABICAAAHABEAc3RyLmRhdFVUDQAHVfxsVVX8bFVV/GxV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDgZioGiJQxpQLEcIExmyAeS+QxFDBoMBgw6UKzJ
 YA1WDdGRC5QvA+vKh6oyRlLDCdQPMh8mb4ShApspEFUmUFWcUDUwF5YA3VwEJAuAdAnQLxoE
@@ -76,10 +68,6 @@ AAAAc3RyLmRhdFVUBQAHVfxsVVBLBQYAAAAAAQABAD4AAADjAAAAAAA=</Image>
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
-					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Collector Array" metatype="CollectorArray" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAP6NrEam08lkqwAAANQBAAAHABEAc3RyLmRhdFVUDQAHozxSVaM8UlWjPFJV
@@ -98,7 +86,7 @@ AHN0ci5kYXRVVAUAB6M8UlVQSwUGAAAAAAEAAQA+AAAA4QAAAAAA</Image>
 					<Tag name="SurfaceArea" type="int" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Drain Back Storage Tank" metatype="Drain Back Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Drain Back Storage Tank" metatype="Drain Back Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANAAwkaRbgQZZQAAAAABAAAHABEAc3RyLmRhdFVUDQAHgPNsVYDzbFWA82xV
 fY3BCkBgEIS/K+UdHCkHJJKnkYT6f4Rc5N2tPwcKl9ndmdmZmZaSkRoXLVtHz4aDjcUkbMUi
 bE+DkssjJiQgMpgazAV9iutHM7CKc5HpkRjHXVem4amfaf8Jz46vjG9P9urZBQ9QSwECFwsU
@@ -114,7 +102,7 @@ VVBLBQYAAAAAAQABAD4AAACbAAAAAAA=</Image>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Expansion Tank" metatype="Expansion Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Expansion Tank" metatype="Expansion Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABYBwkbUGaZuYQAAANoAAAAHABEAc3RyLmRhdFVUDQAH6/NsVevzbFXr82xV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDgZioCiyQwlQNE8hnSGHCBPg8GAQQeMTeCkJoM1
 VH0uQz5DGVBVCZCGqDRDkc8Bmw6Th5iAqgLVBCMsKlDNgKhAdQWIrAViAFBLAQIXCxQAAAAI
@@ -130,7 +118,7 @@ BgAAAAABAAEAPgAAAJcAAAAAAA==</Image>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Expansion Tank / Air Separator" metatype="Expansion Tank / Air Separator" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Expansion Tank / Air Separator" metatype="Expansion Tank / Air Separator" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJgBwkYaYFHufgAAAFIBAAAHABEAc3RyLmRhdFVUDQAH/PRsVfz0bFX89GxV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDgZioCiyQwlQNE8hnSGHCBPg8GAQQeMTeCkJoM1
 HvWGDKZAdaZg1UZgtiWKHgiZy5DPUAZUXwKkIXZYoKjKAbsLJg8xE1UFqglGYDNAtuIyA6IC
@@ -162,7 +150,7 @@ gAAAAABzdHIuZGF0VVQFAAdhzGxVUEsFBgAAAAABAAEAPgAAAK8AAAAAAA==</Image>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Open Valve" metatype="Open Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Open Valve" metatype="Open Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJgEwkZEbfWiXgAAAFoBAAAHABEAc3RyLmRhdFVUDQAHnPpsVZz6bFWc+mxV
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiB/HyGMqBMCZDWYDBg0GEwBpKaDNZQ+Rywapi8
 ERYV2MyBqDMhaBKIxKUCpBu/GRAV+MzA5g5s7oWYhM/nZhgqaoEYAFBLAQIXCxQAAAAIAJgE
@@ -173,18 +161,16 @@ AAABAAEAPgAAAJQAAAAAAA==</Image>
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
-					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Pipe" metatype="Pipe" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAqOrEZyWFlZhQAAAPIAAAAHABEAc3RyLmRhdFVUDQAH1TxSVdU8UlXVPFJV
-XY3NCoJAFIW/bYLvIK4MBC1o5S5qEUiueoCIiQJtIiUI8d07KoIjhztzD+fn1jy48sYQUGl7
-8qLFx2NFIgQcKLiwJ+colnPirG101Mo13JUqhRtWr+VDxJadEC/+NZmTLId7RqzhJ2aUDJ2L
-4SxTqfs75Kx8qVrTmTp1jepGmuvop9P8AVBLAQIXCxQAAAAIAAqOrEZyWFlZhQAAAPIAAAAH
-AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfVPFJVUEsFBgAAAAABAAEAPgAAALsAAAAA
-AA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAA5axEZsNcxQBgEAAPQCAAAHABEAc3RyLmRhdFVUDQAHpzNwVaczcFWnM3BV
+hZJPS8NAEMXfVcHvEHJKoWIVFcGbKCgUvaj30q61mJqSrKJIv7u/nRDYrK1l2NkZ9r03f9hG
+r5poJadMS6KF3vWjA+1rT0dYpms96ElXGuuGbKw73RO1iAae1wusEpuqwleqVehEZ9gwuQe6
+7DFLq+fIvL7JHMy8VzGPOEu0P41XgRuhOopeO6329Zi3FJH2/EU0o1unOVkFu9CpsQ6NP9SF
++RCnKgsUCt2ysUaP+Ll1HnbZ6BlfWqc57AzvqfJh+QDr9ht68WBr/Irbwy+iSunEcW8xqj/5
++Z+5U0Q71S6dTbOnmN212p7/V9k2lwMz27KZ7s9NDBP2WKP1BmcTfm13OGvOL1BLAQIXCxQA
+AAAIAA5axEZsNcxQBgEAAPQCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAenM3BV
+UEsFBgAAAAABAAEAPgAAADwBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Connector">
 						<Property name="direction" value="Source -&gt; Destination"/>
@@ -192,15 +178,19 @@ AA==</Image>
 					</Apply>
 					<Apply type="InformationFlow"/>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="hasValve" type="boolean" description="" unit="" values="true,false" default="false"/>
+					<Tag name="valveGUID" type="Classifier:valveGUID" description="" unit="Remote Control Valve" values="" default=""/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="PipePort" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKJswkZYNW3GBQEAAPAEAAAHABEAc3RyLmRhdFVUDQAHnbFtVZ2xbVWdsW1V
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANRpw0ZYNW3GBQEAAPAEAAAHABEAc3RyLmRhdFVUDQAH0v1uVdL9blXS/W5V
 tVTLDoJADJyzif9AOGHCwRcnvwYV0QhqdomJGv/daZGIKwcgkoYudGc6HSBrsUeMCxJ4yHl3
 wAljjPDQ7GHLnR0s63feBVhgilDzBKs3xqIg0zBfuBbsGNR2y3xgl0C1LFEGZ9UUzo11X5mG
 lRMrCVVTZp9KPp8F67Pj5N2rms2NnMgrecIIdM4Zc31SNzL1WzEi5bTHl91/VZ5/cr4mtlCt
 vKf/9l5K764TN5r9D+E9g/x3RQ/fTVO58e1D0OK/LX7o727ITcns476b88pJF/fNzl2OGyVO
 3G4bTwmr/XdUyhgbKmW8jM4Y8bwJMafiUteI8WFWnFh7y1kk7/rIfr86T7wAUEsBAhcLFAAA
-AAgAomzCRlg1bcYFAQAA8AQAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB52xbVVQ
+AAgA1GnDRlg1bcYFAQAA8AQAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB9L9blVQ
 SwUGAAAAAAEAAQA+AAAAOwEAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Port">
@@ -211,12 +201,12 @@ SwUGAAAAAAEAAQA+AAAAOwEAAAAA</Image>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Pump" metatype="Pump" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGJNw0YPixo0iQAAAGgBAAAHABEAc3RyLmRhdFVUDQAHVcxuVVXMblVVzG5V
-hZDNCoJQEEbP1qB3aGngQoMi6GlChaQs0Usb6d39xqtpZLSYby4zZ/5uw4UzFTkbSr0K7rSs
-WRHQ4BSppZW8Exmy5TRkSx48VefkQ3bERBykE3Hru41Ewl7EUfqLsNw/4ntKrny2uKHtX6vu
-KuYzHwzE0iU2Yd7ffiB9X+jV7+F1Hp90rDd7yTpQSwECFwsUAAAACABiTcNGD4saNIkAAABo
-AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHVcxuVVBLBQYAAAAAAQABAD4AAAC/
-AAAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADRsw0Yod3ZJmwAAAIgBAAAHABEAc3RyLmRhdFVUDQAHRgJvVUYCb1VGAm9V
+hZBBCsIwEEXfVsE7uKzgQoWK4GlEIxZTLUlwI97dn6QlSBUJ+RMyb/5M4rlwoMMwp9Wp4caT
+GVMmvXqC7p20UwziKxbs+2zLnYeqg2LFhhVLttJC2OQ5EGtqETvpLyLm/hHjLkXzyYg/fZ04
+vsfJ5ypmnC8OPvU7q7PVOqrCarv0yjrN+BlLB5MqGrlHj+FXsubZo0Y+T/zSfgNQSwECFwsU
+AAAACAA0bMNGKHd2SZsAAACIAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHRgJv
+VVBLBQYAAAAAAQABAD4AAADRAAAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -244,41 +234,36 @@ CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB2j5bFVQSwUGAAAAAAEAAQA+AAAAugAAAAAA
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Remote Control Valve" metatype="Remote Control Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABJLw0YSIi4l1AAAAMgCAAAHABEAc3RyLmRhdFVUDQAHucduVbnHblW5x25V
+			<Stereotype name="Remote Control Valve" metatype="Remote Control Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEBXxEYSIi4l1AAAAMgCAAAHABEAc3RyLmRhdFVUDQAHWC9wVVgvcFVYL3BV
 hZK5DsIwEESnDRL/QBkkCkiAhooCaiS+AIVwCHLIsWgQ/874iBITJ8jyIfvN7HrtCjecUCLF
 BBlXd+R4Y4wRAlTclbhw78mWoOBYQCDEHDPbp9ho2igynr+0qrBU3GIC6pV/fR51CJ+LoZaW
 CixTZyiZs+BYcpa8S/gnmhr7CBWjidRPDHm42Rpix/MzDk6G7j32tsZbTR7JCbo96Oqq2hpf
 rUx+QzVfewifkyJ+OdfJEAuPU/+/ibBiUxVsz41eUJnoN81xpSq1GvPbYr3qRvywfwFQSwEC
-FwsUAAAACAASS8NGEiIuJdQAAADIAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
-ucduVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
+FwsUAAAACABAV8RGEiIuJdQAAADIAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+WC9wVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Note"/>
 					<Apply type="Text"/>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
-					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Storage Tank" metatype="Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGwAwkbrtZQNhwAAAP4BAAAHABEAc3RyLmRhdFVUDQAH6vJsVerybFXq8mxV
+			<Stereotype name="Storage Tank" metatype="Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJpsw0brtZQNhwAAAP4BAAAHABEAc3RyLmRhdFVUDQAH3QJvVd0Cb1XdAm9V
 K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDihZBFQLpmhBCiXx5DOkAPkaTAYMRgw6EBJMzBp
 ASQ1GayhenIZ8hnKgCpLgLQGWN4QRT4HbE8qQwhY3ojBlCgVIPsQKnDZZEnQHMIqUH2DzSaQ
-ClwmQVSY4rELWQWxdmEPH2STCKtADsFaIAYAUEsBAhcLFAAAAAgAbADCRuu1lA2HAAAA/gEA
-AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB+rybFVQSwUGAAAAAAEAAQA+AAAAvQAA
+ClwmQVSY4rELWQWxdmEPH2STCKtADsFaIAYAUEsBAhcLFAAAAAgAmmzDRuu1lA2HAAAA/gEA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB90Cb1VQSwUGAAAAAAEAAQA+AAAAvQAA
 AAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
-				<TaggedValues>
-					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
-					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
-				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="Storage Tank with internal Heat Exchanger" metatype="Storage Tank with internal Heat Exchanger" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="Storage Tank with internal Heat Exchanger" metatype="Storage Tank with internal Heat Exchanger" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMZlwkZqrErgvwAAALoCAAAHABEAc3RyLmRhdFVUDQAHm6VtVZulbVWbpW1V
 lZLBCsIwEETnquA/iL1E8KCCYPXkpxQtKNoa0uBF/HdnG9TEpFQPmU3Zt5PdpQ2OKKBRYoyK
 txNq3DHCsD0D7GCwh8IcMxJOF4zft1WkOeMU2z99pCoVfS+nDSz7NVTNaDmH8pgKV9w4lWVU
@@ -297,12 +282,12 @@ AAAAAAA=</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Tank" metatype="Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxiq0bipJLXvQAAAD4CAAAHABEAc3RyLmRhdFVUDQAH/p5QVf6eUFX+nlBV
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMZrw0bipJLXvQAAAD4CAAAHABEAc3RyLmRhdFVUDQAHewFvVXsBb1V7AW9V
 jZLLCsIwEEXvVsF/KHZTwYUVBB8rP6XUimJftMGN+O+e9KG2VpSQO8nMnZncIaVOCpQrkqOE
 01mpbpporJFKvEZHfDErVAZmKuRpqRVr3rMz7ZrMGvdwQ9gLGE6DPrZ/shW6uOlU+7eOzRqy
 ny9r9RkUF2CONUzCe2MmaL1WE8jw+1Utiy9GXE2rZaz/ZFj8xqi7/GZ0u0TED4MarMKCvAuc
-oXiNORzbw9ArJT4FA/TbP7Flu8+7S6zNvrMfUEsBAhcLFAAAAAgAzGKrRuKkkte9AAAAPgIA
-AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB/6eUFVQSwUGAAAAAAEAAQA+AAAA8wAA
+oXiNORzbw9ArJT4FA/TbP7Flu8+7S6zNvrMfUEsBAhcLFAAAAAgAxmvDRuKkkte9AAAAPgIA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3sBb1VQSwUGAAAAAAEAAQA+AAAA8wAA
 AAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -312,6 +297,12 @@ AAAA</Image>
 				<TaggedValues>
 					<Tag name="Capacity" type="int" description="" unit="" values="" default=""/>
 					<Tag name="Load" type="enumeration" description="" unit="" values="Empty,Full" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true">
+				<TaggedValues>
+					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
+					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>
