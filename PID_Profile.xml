@@ -4,11 +4,11 @@
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Air Vent" metatype="Air Vent" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABxqw0alG/fjaAAAAFgBAAAHABEAc3RyLmRhdFVUDQAHPv5uVT7+blU+/m5V
-K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDihpAtQLo0hGChTBWRpMJgwGDDogElNBmuomlyG
-fIYyoGwJkNZgMAKrQJbPAZuLkDcFyoNU4VJhSFAFph24XULYHHy+wZRHNQEzPGqBGABQSwEC
-FwsUAAAACAAcasNGpRv342gAAABYAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
-Pv5uVVBLBQYAAAAAAQABAD4AAACeAAAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEBhxUbr0f1GXwAAAEABAAAHABEAc3RyLmRhdFVUDQAHqJFxVaiRcVWokXFV
+K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDihZC5DPkMZUL4ESGswGDDoMJgDSU0Ga6h8DlgP
+TN4QKIepBptJpljUoZoFUQEi8ZtkgkUdqklmBFVA7DLCowLTllogBgBQSwECFwsUAAAACABA
+YcVG69H9Rl8AAABAAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHqJFxVVBLBQYA
+AAAAAQABAD4AAACVAAAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -222,12 +222,12 @@ VVBLBQYAAAAAAQABAD4AAADRAAAAAAA=</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Relief Valve (Pressure, Temperatur)" metatype="Relief Valve (Pressure, Temperatur)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOgDwkZKn8bzhAAAACACAAAHABEAc3RyLmRhdFVUDQAHaPlsVWj5bFVo+WxV
-K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiB/HyGMqBMCZDWYDBiMGDQYTAEkpoM1lAVOWD1
-MBWGDKZAFcZ4VBgRoQLTFtyuIWySCdBGhApsZuDzkQlYBbIJ2ORB/salApsdqK6AmYHbFabg
-UCOsAmQSLltAutFDA9UMM6gZCBW1QAwAUEsBAhcLFAAAAAgA6APCRkqfxvOEAAAAIAIAAAcA
-CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB2j5bFVQSwUGAAAAAAEAAQA+AAAAugAAAAAA
-</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJBhxUaTDZK7nwAAAG4CAAAHABEAc3RyLmRhdFVUDQAHKJJxVSiScVUoknFV
+K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiB/HyGMqBMCZDWYDBg0GEwB5KaDNZQ+Rywapi8
+IVAOUw02k4ywqEM1C6LClKBJIDvR1aGaZExQBcQuEIlLBTZbsLmGsEkgM3TAbsKvAmQjLhXY
+bMHmGohJ+FwDigFiVJhhsauAoQissgSoIw+oUonBD5h6coE6rYApSRkoBuEpwXXWAjEAUEsB
+AhcLFAAAAAgAkGHFRpMNkrufAAAAbgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+ByiScVVQSwUGAAAAAAEAAQA+AAAA1QAAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
