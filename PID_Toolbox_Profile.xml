@@ -8,24 +8,32 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="P_ID::Air Vent(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Ball Valve(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Boiler Drain(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Check Valve(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Closed Valve(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Collector Array(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Drain Back Storage Tank(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Expansion Tank / Air Separator(UML:Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Expansion Tank(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Heat Exchanger(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Open Valve(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Pipe(UML::Connector)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::PipePort(UML::Port)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Pump(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Relief Valve (Pressure, Temperator)(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Remote Control Valve(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Storage Tank with internal Heat Exchanger(UML::Class)" type="" description="" unit="" values="" default=""/>
-					<Tag name="P_ID::Storage Tank(UML::Class)" type="" description="" unit="" values="" default=""/>
+					<Tag name="P_ID::Air Vent(UML::Class)" type="" description="" unit="" values="" default="Air Vent"/>
+					<Tag name="P_ID::Ball Valve(UML::Class)" type="" description="" unit="" values="" default="Ball Valve"/>
+					<Tag name="P_ID::Boiler Drain(UML::Class)" type="" description="" unit="" values="" default="Boiler Drain"/>
+					<Tag name="P_ID::Check Valve(UML::Class)" type="" description="" unit="" values="" default="Check Valve"/>
+					<Tag name="P_ID::Closed Valve(UML::Class)" type="" description="" unit="" values="" default="Closed Valve"/>
+					<Tag name="P_ID::Collector Array(UML::Class)" type="" description="" unit="" values="" default="Collector Array"/>
+					<Tag name="P_ID::Drain Back Storage Tank(UML::Class)" type="" description="" unit="" values="" default="Drain Back Storage Tank"/>
+					<Tag name="P_ID::Expansion Tank / Air Separator(UML:Class)" type="" description="" unit="" values="" default="Expansion Tank / Air Separator"/>
+					<Tag name="P_ID::Expansion Tank(UML::Class)" type="" description="" unit="" values="" default="Expansion Tank"/>
+					<Tag name="P_ID::Gauge (Pressure)(UML::Class)" type="" description="" unit="" values="" default="Gauge (Pressure)"/>
+					<Tag name="P_ID::Gauge (Temperature)(UML::Class)" type="" description="" unit="" values="" default="Gauge (Temperature)"/>
+					<Tag name="P_ID::Heat Exchanger(UML::Class)" type="" description="" unit="" values="" default="Heat Exchanger"/>
+					<Tag name="P_ID::Open Valve(UML::Class)" type="" description="" unit="" values="" default="Open Valve"/>
+					<Tag name="P_ID::Pipe(UML::Connector)" type="" description="" unit="" values="" default="Pipe"/>
+					<Tag name="P_ID::PipePort(UML::Port)" type="" description="" unit="" values="" default="PipePort"/>
+					<Tag name="P_ID::Pump(UML::Class)" type="" description="" unit="" values="" default="Pump"/>
+					<Tag name="P_ID::Relay Coil (Control)(UML::Class)" type="" description="" unit="" values="" default="Relay Coil (Control)"/>
+					<Tag name="P_ID::Relay Coil (Damper Control)(UML::Class)" type="" description="" unit="" values="" default="Relay Coil (Damper Control)"/>
+					<Tag name="P_ID::Relay Coil (Heater Control)(UML::Class)" type="" description="" unit="" values="" default="Relay Coil (Heater Control)"/>
+					<Tag name="P_ID::Relay Coil (Motor Control)(UML::Class)" type="" description="" unit="" values="" default="Relay Coil (Motor Control)"/>
+					<Tag name="P_ID::Relay Coil (Time Delay)(UML::Class)" type="" description="" unit="" values="" default="Relay Coil (Time Delay)"/>
+					<Tag name="P_ID::Relay Coil (Valve Control)(UML::Class)" type="" description="" unit="" values="" default="Relay Coil (Valve Control)"/>
+					<Tag name="P_ID::Relief Valve (Pressure, Temperator)(UML::Class)" type="" description="" unit="" values="" default="Relief Valve (Pressure, Temperator)"/>
+					<Tag name="P_ID::Remote Control Valve(UML::Class)" type="" description="" unit="" values="" default="Remote Control Valve"/>
+					<Tag name="P_ID::Storage Tank with internal Heat Exchanger(UML::Class)" type="" description="" unit="" values="" default="Storage Tank with internal Heat Exchanger"/>
+					<Tag name="P_ID::Storage Tank(UML::Class)" type="" description="" unit="" values="" default="Storage Tank"/>
 					<Tag name="P_ID::Tank(UML::Class)" type="" description="" unit="" values="" default="Tank"/>
 				</TaggedValues>
 			</Stereotype>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="EF09B7B5-2" name="P_ID" version="1.5" notes="P_ID"/>
+	<Documentation id="EF09B7B5-2" name="P_ID" version="1.0" notes="P_ID"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="Air Vent" metatype="Air Vent" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALiJxUbEiAD4fQAAAIIBAAAHABEAc3RyLmRhdFVUDQAHyNhxVcjYcVXI2HFV
-K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiBokVgfglDDpDUYFACkolAVSC1VkCsDOcrA+U0
-Gayh+pDJXIZ8hjKgihIgrcFgwKDDYA4kEWpzwDbA5A2BcphqsJlkikUdqlkQFSCSGJOM8Jhk
-AlSDbhK6XYRVoNsCwrVADABQSwECFwsUAAAACAC4icVGxIgA+H0AAACCAQAABwAJAAAAAAAA
-AAAAAIAAAAAAc3RyLmRhdFVUBQAHyNhxVVBLBQYAAAAAAQABAD4AAACzAAAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAC6XxkbgEuFifQAAAIABAAAHABEAc3RyLmRhdFVUDQAHg0JzVYNCc1WDQnNV
+K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiBokVgfglDDpDUYFACkolAVakMVkDVynCeMlBG
+k8EaqguZzGXIZygDqigB0hoMBgw6DOZAEqE2B2w+TN4QKIepBptJpljUoZoFUQEiiTHJCI9J
+JkA16Cah20VYBbotIFwLxABQSwECFwsUAAAACAAul8ZG4BLhYn0AAACAAQAABwAJAAAAAAAA
+AAAAAIAAAAAAc3RyLmRhdFVUBQAHg0JzVVBLBQYAAAAAAQABAD4AAACzAAAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -20,12 +20,12 @@ AAAAAIAAAAAAc3RyLmRhdFVUBQAHyNhxVVBLBQYAAAAAAQABAD4AAACzAAAAAAA=</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Ball Valve" metatype="Ball Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFiJxUbTSJY4swAAAH4CAAAHABEAc3RyLmRhdFVUDQAHFNhxVRTYcVUU2HFV
-lZLNCsJADITnquA7iL1U8OBfrT9P04Ngwa6lLV7Ed3ey0Upq2SJLZrPNt7MJtMYFGUqcMUXB
-LIfDAxOMMeK3K1fOas08xhoJFtQlNfX5nvkcpzevWuCGO/mGe+zZxFDi6Nq6ulmiz0c50bCT
-7ahLHEjsuL7E/6+IxwbbgX5X9PidzHpJr13CuigR6keJ0NQpewlPPfyKevRNXaLyZMMbjuSM
-mtFf/qcjI2rPEWuf2xJPxgtQSwECFwsUAAAACABYicVG00iWOLMAAAB+AgAABwAJAAAAAAAA
-AAAAAIAAAAAAc3RyLmRhdFVUBQAHFNhxVVBLBQYAAAAAAQABAD4AAADpAAAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFSYxkZih3AArgAAAHQCAAAHABEAc3RyLmRhdFVUDQAHskNzVbJDc1WyQ3NV
+lY/NCsIwEITnquA7iL1E8OBfrT9P00PAgq1iixfpu3eSlepGSZGQzSb77WS2xhk5brCYomRW
+oMITE4wx4uvd3xsYzHjmJCyOJJP+lrAyx+nVIdHiwlWwv2ZusEaKBeOSMfP5nnnYVeKKB/mG
+p/FsqiinWPV1UdPELx3hXIwraUchcSCx43oT///iNDbYDvhdUeN7Mq3lvIaEVhEi5keI2NQZ
+vcSnHv5FND6nbrk7UEsBAhcLFAAAAAgAVJjGRmKHcACuAAAAdAIAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB7JDc1VQSwUGAAAAAAEAAQA+AAAA5AAAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -49,11 +49,11 @@ AAAAwwAAAAAA</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Check Valve" metatype="Check Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADCJxUad2hAncwAAACgBAAAHABEAc3RyLmRhdFVUDQAH5NdxVeTXcVXk13FV
-K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiB/HyGMqBMCZDWYDBg0GEwBZKaDNZQ+Rywapi8
-IVAOUw2qGcZgFWZ4TIGoMMGjwpygGRAVqGZAyAKGIrDKEqCOPKBKJSCZCHQjyPdWQKwM5ysD
-5WC6a4EYAFBLAQIXCxQAAAAIADCJxUad2hAncwAAACgBAAAHAAkAAAAAAAAAAAAAgAAAAABz
-dHIuZGF0VVQFAAfk13FVUEsFBgAAAAABAAEAPgAAAKkAAAAAAA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACKYxkaB7MHGcQAAACIBAAAHABEAc3RyLmRhdFVUDQAHfUNzVX1Dc1V9Q3NV
+K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiBokVgfgmDBoMSkE4EqkhlsAKqVIbzlIEymgzW
+UB0QMpchn6EMKFcCpDUYDBh0GEyBJEJVDthUmLwhUA5TDaoZxmAVZnhMgagwwaPCnKAZEBXI
+ZtQCMQBQSwECFwsUAAAACAAimMZGgezBxnEAAAAiAQAABwAJAAAAAAAAAAAAAIAAAAAAc3Ry
+LmRhdFVUBQAHfUNzVVBLBQYAAAAAAQABAD4AAACnAAAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -61,13 +61,13 @@ dHIuZGF0VVQFAAfk13FVUEsFBgAAAAABAAEAPgAAAKkAAAAAAA==</Image>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Closed Valve" metatype="Closed Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAByIxUYj0kVTwgAAAEYCAAAHABEAc3RyLmRhdFVUDQAHvtVxVb7VcVW+1XFV
-hZLLCsIwEEXvtoL/IHZTwYXiC3TlQteCX1B8oGgftMGN+O/eZBIxmFbK3LaZMzO3Q2tckKLE
-CT1kfLoixxNddBCh5qnCmWd3XgcU1AIVEowwtDHAytBSIZqRepjawrKzLzJiFz3F5ScBwu8g
-xNwjnENFzxW15F3xW5I/c6YtThaBOSGirUez1w2pI3aeT5cT3dpNrw25J1ex5429/armXYu/
-tm2PmftlREvO06xiTU62T005Qf8bS0b8eY+Zc9UvxhtQSwECFwsUAAAACAAciMVGI9JFU8IA
-AABGAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHvtVxVVBLBQYAAAAAAQABAD4A
-AAD4AAAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADSYxkZAw0kLvAAAAEACAAAHABEAc3RyLmRhdFVUDQAHlkNzVZZDc1WWQ3NV
+hZDLCsIwFERnW8F/ELuJ4ELxBbpyoWvBLyhaUbSmpMGN+O+OeUgjaaXkpsk9MxluhTMylMjR
+Q8G/C+54oosOEt4qc9YQ6HPPSORYkky/p5SdAVZOYWvFe40TtTd+B0hWSS+BEYZueU1dV5B6
+GK107KxGJnT5pPH9SYQIHSwxDwifUDO/Yi25a85A/Hln2pJkEXknRrR5NGfdkDpiF+T0PVu3
+btJrQ+7JKXpe6R2qmmdt87VNe8zeL/PiegNQSwECFwsUAAAACAA0mMZGQMNJC7wAAABAAgAA
+BwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHlkNzVVBLBQYAAAAAAQABAD4AAADyAAAA
+AAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -75,12 +75,13 @@ AAD4AAAAAAA=</Image>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Collector Array" metatype="CollectorArray" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAP6NrEam08lkqwAAANQBAAAHABEAc3RyLmRhdFVUDQAHozxSVaM8UlWjPFJV
-fU/LCsIwEJyrgv/gsUIPbUEi+DXSVhRbU9LQi/jvzqZdUrWUkM0yj91Jjxsu6FBjj5bdHU+8
-sMMWG/REPa7EGp4SltXCIUGBI0/68x5wnpzq95zoWDu+npuSmablrCFssMQzTjGskW9CFuWF
-S1d5yZGvKISTHfOc34r/DDXZajG9/M3R9aBmiR+r/L4kLtkME0jCgvUUdkVUu+hXpwl64UdP
-PmkV1U6db94PUEsBAhcLFAAAAAgA/o2sRqbTyWSrAAAA1AEAAAcACQAAAAAAAAAAAACAAAAA
-AHN0ci5kYXRVVAUAB6M8UlVQSwUGAAAAAAEAAQA+AAAA4QAAAAAA</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEyXxkafDLhNwAAAAAwCAAAHABEAc3RyLmRhdFVUDQAH3kJzVd5Cc1XeQnNV
+fU9BDoIwEJyrJv7ByAUTDkJiavQ1BGs0giWl8WL8u7OFCgohTXe3OzO70wZX5KihsUbF6oYH
+XlhhiQW71r8dYmyYczI0jmRG31dEZItTp2hjw77DhdqSp4BhNJwVI8OeJ/nLY73jdMtYMzs6
+jAecirOefoNhf8cpirHHS+854IIls7j4SGcYgsmOoc9fxtiDJnqedC9/s1TdyZnC2yi/L9gX
+b4oOxGHGePC7+m6oen1QKs8XvNWkHTd0QxWUb94PUEsBAhcLFAAAAAgATJfGRp8MuE3AAAAA
+DAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB95Cc1VQSwUGAAAAAAEAAQA+AAAA
+9gAAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -92,13 +93,14 @@ AHN0ci5kYXRVVAUAB6M8UlVQSwUGAAAAAAEAAQA+AAAA4QAAAAAA</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Drain Back Storage Tank" metatype="Drain Back Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPyFxUauPUWo7AAAAHICAAAHABEAc3RyLmRhdFVUDQAHotJxVaLScVWi0nFV
-fVHLCsIwEJxrBf+h1EuFHhQVUfEgeBQveherpYqpSlu9iP/uZOMj8UXIbLI7O3lMgQ2WOCKB
-j4yrLfa4oIoKPGZz2ZcIEWDKakZen8was2ZXY6WOwb3DYM78il1LslIo7kK00ECEpmBXsEd8
-dWY44ExmyRiiIwy7ruQmbl2r/Vdwz/il8Ztjqp8sG0dYc8xwQkx8/Kb+sUJUcmZSZiaMMaNi
-JUJbdA2av9Hr9xMKyx1XTT3VHm555C6Y1S9I+QYfQ86ATiTiYcLe4Klvu6uI+r5jUde5mHGF
-nePtt46Zcycfc/Hc7btaL7py3gBQSwECFwsUAAAACAD8hcVGrj1FqOwAAAByAgAABwAJAAAA
-AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHotJxVVBLBQYAAAAAAQABAD4AAAAiAQAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHaXxkbkBs4K8AAAAKACAAAHABEAc3RyLmRhdFVUDQAHD0NzVQ9Dc1UPQ3NV
+lVLLCsIwEJxrBf+h1EuFHhQVX3gQPHrTu7QaqpiqtOpF/Hcnq7aNL5CS2WZ3dpLdTYY1Qhyg
+4CLh3wY7XFBFBQ69qeyP8OHRhmQoDMis5bsaI3UMHxl3TOlfMiskK4bmzkcLDQRoCnYF+8Qi
+M8EeZzKPtD46wijHtdzEjhu13wr2Gd80vnPu0XdWGcdY8ZvhhIj47KbpWCYqKT0xPVPaiFYz
+EqAtuj3BojevJ2Sl6dhqOld7Tsshd0GvqSBmDS5GXB4noWSGirleru+wV/+wi7egiaa6idzF
++CLaJbbWS/iUMbMqcDGXF2LnXUv1X7luUEsBAhcLFAAAAAgAdpfGRuQGzgrwAAAAoAIAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABw9Dc1VQSwUGAAAAAAEAAQA+AAAAJgEAAAAA
+</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -110,14 +112,13 @@ AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHotJxVVBLBQYAAAAAAQABAD4AAAAiAQAAAAA=</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Expansion Tank" metatype="Expansion Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKKGxUZoAb/f7gAAAGQCAAAHABEAc3RyLmRhdFVUDQAH/dNxVf3TcVX903FV
-jZHNisJAEITrGsF3EL0oeFBWEVw8ePCkiKCHvYk/QRcSFeMugvjufjNjNKMiElI93V1dM92d
-aK2ZdgpVUMzpVxudlFdOAdG99Q+KwLKKGsKI4bZhl4g5r0Smou9rlcM98QWVM1gr6kPqv1RT
-VXWLLYtN8F4Za6t/mAds+cpqZvKRfU2aNzrPHF/D6D/e4qs4hq/hsKsl31h/moPplMwUQh05
-m84StLbYAd6ceES2qobVdHjv+VE/yUz+nWK6jYC+pkTN+1cwOty1gGH2EzLv4k0/QPlTZmqf
-d93Tj0beZl+xJsxpqL7HO2f6PPNfAFBLAQIXCxQAAAAIAKKGxUZoAb/f7gAAAGQCAAAHAAkA
-AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf903FVUEsFBgAAAAABAAEAPgAAACQBAAAA
-AA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGKXxka4N3Z56gAAAGACAAAHABEAc3RyLmRhdFVUDQAHBUNzVQVDc1UFQ3NV
+jVFNC4JAEH1Xg/5D6MXAQ1ESFB06dCoiqEO3sBILNEMtgvC/93b9XIsI8c3OzJu3OzMxznBw
+g4sOAp4uuOKFNlrQGI2kn8CETuuQ4WJMplF6BjNdTPKKDCPGj6xyyPLg0zMxQA8W+hJHEm1i
+VRkgxIPMhNbMWXYt78uXFHmh88lRNYR+8xZVJWOoGhnOcOK3wR0HYjEhMQUXT55FZzG1Qtol
+vQPjPrMWhlIzw6rnpn5cm/ovxWITGvvaMyre75Ex5V1HMsRuXM5bL/U1Kv/LLGy1Z58oupxj
+h7Wy2W+sLee0wkLhpbU+U/5vUEsBAhcLFAAAAAgAYpfGRrg3dnnqAAAAYAIAAAcACQAAAAAA
+AAAAAACAAAAAAHN0ci5kYXRVVAUABwVDc1VQSwUGAAAAAAEAAQA+AAAAIAEAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -129,14 +130,14 @@ AA==</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Expansion Tank / Air Separator" metatype="Expansion Tank / Air Separator" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADaHxUZW+hRrDQEAAPYCAAAHABEAc3RyLmRhdFVUDQAH59RxVefUcVXn1HFV
-jZJBa8JAEIXfNQX/g+hFIQdFa7Glhx48tYjQHnoTtcEWEitGpVD8736769psGmoJebuZffNm
-5m1yvWumtRLVlbH70ErfqulK0QnX2tjoVinYUkNjeBkZt+Q0ibmvJidt3QW5G+ILMmewluQn
-5PfUUayuxRuL16DPLGY/6I3nWTvNQd+n6SDRF3ujmtPbJ+sTX3PiKaex+lbX4U+9cnd5Yfa/
-FL0fkfaaEk1hLGHcU2sBw3iTMGvjrB+h/F+mX3/7PNKrJoGrVawXfBrrMeAdLt5CH9djDU7+
-m/0QLDuU4cQe/pa1ZbnDwEcz3+p87jSLjCoVV20QVAt1zF2ZWiGnWqv8/5S1HMPM6RkH3iNQ
-SwECFwsUAAAACAA2h8VGVvoUaw0BAAD2AgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVU
-BQAH59RxVVBLBQYAAAAAAQABAD4AAABDAQAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHCXxka9s9x1DQEAAPICAAAHABEAc3RyLmRhdFVUDQAH/EJzVfxCc1X8QnNV
+jZJPS8NQEMTnGsHvIO0lQg6KtaWKBw+eFBHagzdJ21CFtJamFkH63f3tS1+aF0KVkNn3Z3Z2
+d5JC70q1UqYzLVh9aKkfnepE0R5XWrvTjWJ1iCm8TDfwu9Wuy825boO8NedTslJYc+XsYl3p
+QokuHQ4cXoM+s559rxnPSF+agL5H6yDTN2tTLejrk/jEbsJ5zm2intMt8VCv2V1Rm/uYovci
+0lZvnOYw5jDuqDWFYb5kzNqp9COU/8v08eBxDtqUD3rVS+BqG2uMT896DHi7P79CD9cT9ff+
+23oINh1a4MQW/oYYO+4w8NHmW1b3pWad0aZSVusH1UId+1ZWK+S0azX/n6ZWybA5PWPH+wtQ
+SwECFwsUAAAACABwl8ZGvbPcdQ0BAADyAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVU
+BQAH/EJzVVBLBQYAAAAAAQABAD4AAABDAQAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -147,14 +148,48 @@ BQAH59RxVVBLBQYAAAAAAQABAD4AAABDAQAAAAA=</Image>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
+			<Stereotype name="Gauge" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<TaggedValues>
+					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
+					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Gauge (Pressure)" metatype="Gauge (Pressure)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Gauge" baseStereotypes="Gauge">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAF6YxkbiFmPm1AAAABYCAAAHABEAc3RyLmRhdFVUDQAHx0NzVcdDc1XHQ3NV
+jZFBDoIwEEX/tibegeAGExYqaozGG7jwBga0QRNRIuDGcHf/FAqiLAzJZ9p589vpZDgjRAoN
+BwmjC254YYgBFHcfZp3jSvXgUkNSGmvSo2Y1YmaMjamqKhPc8WQm59/DBD5WVMso+omvzU+Z
++2W6HoseoutSEcsOUakmKWyKjLGHgKyPWc1L3FcV4sQvQ4GIal9JXiFmXFA1dowi4+/SJTCO
+c6PtGd++rZfT62RfX7H7A3fl5jH73PKMIwmZh+Zk3MZX0fFfsp2pdLL/mJxCWd+xxBtQSwEC
+FwsUAAAACABemMZG4hZj5tQAAAAWAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+x0NzVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Gauge (Temperature)" metatype="Gauge (Temperature)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Gauge" baseStereotypes="Gauge">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMKVxkb3rj4J1AAAABgCAAAHABEAc3RyLmRhdFVUDQAHGUBzVRlAc1UZQHNV
+jZHNDoIwEITnWhPfgeAFEw4qaozGN/Do3YA2aCJKBLwY3t3ZQkGUgyFMt91vpz+b4YwQKTQc
+JIwuuOGFIQZQXH2YeY4r1YNLDUlprEmPmtmImTE2pqqqTHDHk5mco4cJfKyollH0E1+bnzL3
+y3Q9Fj1E16Uilh2iUk1S2BQZYw8BWR+zmpe4ryrEiV+GAhHVvpK8Qsy4oGrsGEXG36VLYBzn
+Rts9vn1bL6fXyb6+4u0PXJWTx7znlnscSUg/NDvjNr6Kjv+SbU/lJvuPzimU9RlL/m9QSwEC
+FwsUAAAACADClcZG964+CdQAAAAYAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+GUBzVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
 			<Stereotype name="Heat Exchanger" metatype="Heat Exchanger" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHyHxUaieWVL5wAAAIICAAAHABEAc3RyLmRhdFVUDQAHctVxVXLVcVVy1XFV
-hVJNC4JAFJyrQf9B7GLQoS8riu6dOnXoFlaiwVqiFUH435vd1XTLCNlZ377ZefuYlyGCjwQB
-bMT8O+GMJ9powSowQapOr3DhYE1OTPac/A5PddRhpouFcc/HkV+GG/bEsorUiPCAYLxnLBj3
-MEKfOFE4LtD7UkzJP/AdPuuGvCnVNHuocKpwRqxuxrjgTuaGu0tNr2BXDKG6Mxm/FXQN+d5f
-CgPmvjlNKhL/qZicpm7Mfpu60VolR/MqR+wPP3S+nAGL2R1zUjekso0ll0MfAjUTAV1x3tXr
-0yKI0u0VtsZ05DVPc64XUEsBAhcLFAAAAAgAfIfFRqJ5ZUvnAAAAggIAAAcACQAAAAAAAAAA
-AACAAAAAAHN0ci5kYXRVVAUAB3LVcVVQSwUGAAAAAAEAAQA+AAAAHQEAAAAA</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACyXxkbELBkz6AAAALACAAAHABEAc3RyLmRhdFVUDQAHskJzVbJCc1WyQnNV
+lVJNC4JAEH1Xg/6D2MXAQ99F0b0f0KFbaC0aaIlWBOF/7+36xZoSsewbx3nzZoeZFAFcxBAw
+EfHrgive6KMHo8AYifp7hw2L1iVPYE3+oPIGjAyx0fJcnHlSPOARyypSI8ALIX2PfkjfwRQj
+4kLhTOGE2FRMyD/xHS7r+syUajXbwVLhSsuMcMOTzD2tjTlPUztU3emMboW8hnxvl8KYsW9O
+m4rEXyo6p60bvd+2bnKtkpPz6omYjXnk8XIHDEaPjEldn8omtrwW5yDUTghOxaqqG3zdP+x6
+t0Ki3I0dDtouZYWVmPF+AFBLAQIXCxQAAAAIACyXxkbELBkz6AAAALACAAAHAAkAAAAAAAAA
+AAAAgAAAAABzdHIuZGF0VVQFAAeyQnNVUEsFBgAAAAABAAEAPgAAAB4BAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -166,11 +201,11 @@ AACAAAAAAHN0ci5kYXRVVAUAB3LVcVVQSwUGAAAAAAEAAQA+AAAAHQEAAAAA</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Open Valve" metatype="Open Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACSIxUaa0XKofQAAAJQBAAAHABEAc3RyLmRhdFVUDQAHztVxVc7VcVXO1XFV
-K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiBokVgfglDDpDUYFACkolAVSC1VkCsDOcrA+U0
-Gayh+iBkLkM+QxlQrgRIazAYMOgwmAJJhKocsNkweWMsKlBNgKgwI2iGCR4V5gTNgKjAZwY2
-d2BzL8QkfH42BMqhq6kFYgBQSwECFwsUAAAACAAkiMVGmtFyqH0AAACUAQAABwAJAAAAAAAA
-AAAAAIAAAAAAc3RyLmRhdFVUBQAHztVxVVBLBQYAAAAAAQABAD4AAACzAAAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADSYxka4opcJewAAAI4BAAAHABEAc3RyLmRhdFVUDQAHhkNzVYZDc1WGQ3NV
+K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4GDiBokVgfgmDBoMSkE4EqkhlsAKqVIbzlIEymgzW
+UB0QMpchn6EMKFcCpDUYDBh0GEyBJEJVDthUmLwxFhWoJkBUmBE0wwSPCnOCZkBU4DMDmzuw
+uRdiEj4/GwLl0NXUAjEAUEsBAhcLFAAAAAgANJjGRriilwl7AAAAjgEAAAcACQAAAAAAAAAA
+AACAAAAAAHN0ci5kYXRVVAUAB4ZDc1VQSwUGAAAAAAEAAQA+AAAAsQAAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -178,20 +213,20 @@ AAAAAIAAAAAAc3RyLmRhdFVUBQAHztVxVVBLBQYAAAAAAQABAD4AAACzAAAAAAA=</Image>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Pipe" metatype="Pipe" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAA5axEZsNcxQBgEAAPQCAAAHABEAc3RyLmRhdFVUDQAHpzNwVaczcFWnM3BV
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABCYxkZsNcxQBgEAAPQCAAAHABEAc3RyLmRhdFVUDQAHWENzVVhDc1VYQ3NV
 hZJPS8NAEMXfVcHvEHJKoWIVFcGbKCgUvaj30q61mJqSrKJIv7u/nRDYrK1l2NkZ9r03f9hG
 r5poJadMS6KF3vWjA+1rT0dYpms96ElXGuuGbKw73RO1iAae1wusEpuqwleqVehEZ9gwuQe6
 7DFLq+fIvL7JHMy8VzGPOEu0P41XgRuhOopeO6329Zi3FJH2/EU0o1unOVkFu9CpsQ6NP9SF
 +RCnKgsUCt2ysUaP+Ll1HnbZ6BlfWqc57AzvqfJh+QDr9ht68WBr/Irbwy+iSunEcW8xqj/5
 +Z+5U0Q71S6dTbOnmN212p7/V9k2lwMz27KZ7s9NDBP2WKP1BmcTfm13OGvOL1BLAQIXCxQA
-AAAIAA5axEZsNcxQBgEAAPQCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAenM3BV
+AAAIABCYxkZsNcxQBgEAAPQCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdYQ3NV
 UEsFBgAAAAABAAEAPgAAADwBAAAAAA==</Image>
 				<AppliesTo>
+					<Apply type="InformationFlow"/>
 					<Apply type="Connector">
 						<Property name="direction" value="Source -&gt; Destination"/>
 						<Property name="kind" value=""/>
 					</Apply>
-					<Apply type="InformationFlow"/>
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="hasValve" type="boolean" description="" unit="" values="true,false" default="false"/>
@@ -216,12 +251,12 @@ SwUGAAAAAAEAAQA+AAAAOwEAAAAA</Image>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Pump" metatype="Pump" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABKIxUYOST4omwAAAIIBAAAHABEAc3RyLmRhdFVUDQAHmdVxVZnVcVWZ1XFV
-hY/RCoIwGEbPbUHvEHlj0EUFRdTTDBKMZokOb6J379um7sKiix2n//n2uZYSQ03Bkkq7Gw9e
-LJgz61nThK8OK+asRCPXJ85a2fieabbm0udaJYyyTicYsVQ2TSuedMo4PXP2bNlwFJNhQ+tg
-7DjIOIm/DD/7Z0xbEuOukH/9+sf+Po3OucuZzoe0DZ217GK8V2Rs9/SZ2PnW+gBQSwECFwsU
-AAAACAASiMVGDkk+KJsAAACCAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHmdVx
-VVBLBQYAAAAAAQABAD4AAADRAAAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACiXxkZj1qpTmQAAAHwBAAAHABEAc3RyLmRhdFVUDQAHkEJzVZBCc1WQQnNV
+hY9BCsIwFETfVsE7iN1UcKGCInqagIGKrZY2dCPe3UnSNosqLjL/J/9NJmkpMNRYllTqbjx4
+sWDOrNeaJpw6claqRpzlLD4bd5kmay69oxVr5HLyGmkhZ5pWPOnkcao5e7ZsOEoTUYa8gdhx
+EHGS/iL87B8xTUkaOyv++vXF/j+N7rmLmc4Hdxkya9F2/FfUmO7Ve2LmW+sDUEsBAhcLFAAA
+AAgAKJfGRmPWqlOZAAAAfAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB5BCc1VQ
+SwUGAAAAAAEAAQA+AAAAzwAAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -232,13 +267,103 @@ VVBLBQYAAAAAAQABAD4AAADRAAAAAAA=</Image>
 					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
+			<Stereotype name="Relay Coil" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<TaggedValues>
+					<Tag name="ingoing" type="Classifier:ingoing" description="" unit="Pipe" values="" default=""/>
+					<Tag name="outgoing" type="Classifier:outgoing" description="" unit="Pipe" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Relay Coil (Control)" metatype="Relay Coil (Control)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Relay Coil" baseStereotypes="Relay%20Coil">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACyVxkabRH7U1AAAACYCAAAHABEAc3RyLmRhdFVUDQAH8j5zVfI+c1XyPnNV
+jVHLDoIwEJwrJv6DgQsmHHyGROPBePWkH2BAGyUBJYJcDP/utFDeB9N0unRnZ9huggc8xBCY
+IGIU4IkvxhipbTDzVncpQqINk+iRKbBhhVV9WcxMsS2rCozwQsZcytPGDA7WxJoVKmWdXw4w
+2gruAKOtMWeuzylQkCvZMRLG2m9BrlMqu4y7VU3c48Z1xgc+Ub+bfJMr3QOqH3nnKyeTeqvq
+X5yGW9chaUygr1PMwuDKcOGt7ODOjnfKVajJCM7IrFQN6v3LrKcruzjg1Jpirs6c+wdQSwEC
+FwsUAAAACAAslcZGm0R+1NQAAAAmAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+8j5zVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Relay Coil (Damper Control)" metatype="Relay Coil (Damper Control)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Relay Coil" baseStereotypes="Relay%20Coil">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFCYxkbywZcS1AAAACQCAAAHABEAc3RyLmRhdFVUDQAHwENzVcBDc1XAQ3NV
+jVHLDoIwEJwrJv6DgQsmHHyGROPBxKOe/AAD2igJKBHkYvh3p4XyPpim06U7O8N2EzzgIYbA
+BBGjAE98McZIbYOZt7pLERJtmESPTIENK6zqy2Jmim1ZVWCEFzLmUp42ZnCwJtasUCnr/HKA
+0VZwBxhtjTlzfU6BglzJjpEw1n4Lcp1S2WXcrWriHjeuMz7wifrd5Jtc6R5Q/cg7XzmZ1FtV
+/+I03LoOSWMCfZ1iFgZXhgtvZQd3drxTrkJNRnBGZqVqUO9fZj1d2cUJh9YUc3Xm+AFQSwEC
+FwsUAAAACABQmMZG8sGXEtQAAAAkAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH
+wENzVVBLBQYAAAAAAQABAD4AAAAKAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Relay Coil (Heater Control)" metatype="Relay Coil (Heater Control)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Relay Coil" baseStereotypes="Relay%20Coil">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADCUxkZj8cGi1QAAACgCAAAHABEAc3RyLmRhdFVUDQAHBD1zVQQ9c1UEPXNV
+jVG7DoJAEJwWE//BQIMJhc+QaCzsLKzU3oBekASUCNIY/t254/0ozOXmltvZGfY2xgMOIghM
+EDLy8cQXY4zU1ph5q7sEAdGETnTIFNiwwqi+DGam2BZVOYZ4IWUu4WliBgtrYs0KlHKZXw4w
+2gr2AKOtMWeuz8lRkCvZEWLGpd+CXKtQthl3q5q4x53rjA9cYvlu8k1udPepfuSdq5x06q2q
+f7Eabl2HuDGBvk4+C40rxZW3sgOPHe+Uq1CTEZyRXqlq1PuXWU9XdnHABafWHDN1Ztw/UEsB
+AhcLFAAAAAgAMJTGRmPxwaLVAAAAKAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+BwQ9c1VQSwUGAAAAAAEAAQA+AAAACwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Relay Coil (Motor Control)" metatype="Relay Coil (Motor Control)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Relay Coil" baseStereotypes="Relay%20Coil">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHSUxkazPoJe0wAAACQCAAAHABEAc3RyLmRhdFVUDQAHXj1zVV49c1VePXNV
+jVG7DoJAEJwWE//BQIMJhc+QaCzstbKxM6AXJQElgjSGf3fu4HgX5nJzy+3sDHub4AEPMQQm
+iBgFeOKLMUZqG8y81V2KkGjDJHpkCmxYYVVfFjNTbMuqAiO8kDGX8rQxg4M1sWaFSlnnlwOM
+toI7wGhrzJnrcwoU5Ep2jISx9luQ65TKLuNuVRP3uHGd8IFP1O8m3+RK94DqB975ysmk3qr6
+F6fh1nVIGhPo6xSzMLgyXHgrO7iz451yFWoygjMyK1WDev8y6+nKLo44t6aYqzPHD1BLAQIX
+CxQAAAAIAHSUxkazPoJe0wAAACQCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAde
+PXNVUEsFBgAAAAABAAEAPgAAAAkBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Relay Coil (Time Delay)" metatype="Relay Coil (Time Delay)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Relay Coil" baseStereotypes="Relay%20Coil">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFyUxkbnuSHz1QAAACYCAAAHABEAc3RyLmRhdFVUDQAHRj1zVUY9c1VGPXNV
+jVG7DoJAEJwWE//BQIMJhc+QaCxMLK3U3oBekASUCNIY/t254/0ozOXmltvZGfY2xgMOIghM
+EDLy8cQXY4zU1ph5q7sEAdGETnTIFNiwwqi+DGam2BZVOYZ4IWUu4WliBgtrYs0KlHKZXw4w
+2gr2AKOtMWeuz8lRkCvZEWLGpd+CXKtQthl3q5q4x53rjA9cYvlu8k1udPepfuSdq5x06q2q
+f7Eabl2HuDGBvk4+C40rxZW3sgOPHe+Uq1CTEZyRXqlq1PuXWU9XdnHBAafWHDN1ZvgBUEsB
+AhcLFAAAAAgAXJTGRue5IfPVAAAAJgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B0Y9c1VQSwUGAAAAAAEAAQA+AAAACwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Relay Coil (Valve Control)" metatype="Relay Coil (Valve Control)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Relay Coil" baseStereotypes="Relay%20Coil">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEaUxkaQVFUu0QAAACICAAAHABEAc3RyLmRhdFVUDQAHGz1zVRs9c1UbPXNV
+jVG7CsJAEJw2gv8gsYmQwicBxcLeTrCVRA8NJBpMTCP5d+c270chx81tbmdnsrcxHnARQWGC
+kJGPJ74YYyTbYOYtdwkCogWT6JKpsGXFtPqaMjPDrqjKMcQLKXMJTwtz2NgQa1YgymV+NcBo
+KzgDjLbGgrk+J0dFrmZHiBmXfkty7ULZYdytauIBN64TPvCI5bvpN7nS3af6kXeeOJnUW1f/
+Yjfcug5xYwJ9nXwWBleKC291B3d2vBdXJZNRnJFZqRrU+5dZT1d3cW7NMJMzww9QSwECFwsU
+AAAACABGlMZGkFRVLtEAAAAiAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHGz1z
+VVBLBQYAAAAAAQABAD4AAAAHAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
 			<Stereotype name="Relief Valve (Pressure, Temperatur)" metatype="Relief Valve (Pressure, Temperatur)" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACaJxUa8aX5kiwAAAJwBAAAHABEAc3RyLmRhdFVUDQAHv9dxVb/XcVW/13FV
-K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4wJgTKFMEFithyAGSGgxKQDIRqBKk3gqIleF8ZaCc
-JoM1kt5chnyGMqBMCZDWYDBiMGDQAZMwVZxAM0Fmw1QYMpgCVZjiUWFEhApMW5BJVDeZgFUb
-4jHPFGwjYRUgkxAqUG0B6QapMMVphhnUDISKWiAGAFBLAQIXCxQAAAAIACaJxUa8aX5kiwAA
-AJwBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAe/13FVUEsFBgAAAAABAAEAPgAA
-AMEAAAAAAA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABKXxkZbR/AemgAAAHICAAAHABEAc3RyLmRhdFVUDQAHeUJzVXlCc1V5QnNV
+K2bIYEhkKGBIZVBgyAWyMhnyGKoZeBm4wJgTKFMEFithyAGSGgxKQDIRqDKVwQqoQxnOUwbK
+aDJYI+nMZchnKAPKlABpDQYjBgMGHTAJU8UJNBFkMkyFIViFKR4VxgRVYLOFPNeAbNEBuwm/
+CpCbcKnAZgs214BUmeMxB+QKTDXYfEQ4bFDNwO0miO/whRDIJGJUmCGpqAViAFBLAQIXCxQA
+AAAIABKXxkZbR/AemgAAAHICAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAd5QnNV
+UEsFBgAAAAABAAEAPgAAANAAAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -250,30 +375,30 @@ AMEAAAAAAA==</Image>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Remote Control Valve" metatype="Remote Control Valve" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Valve" baseStereotypes="Valve">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAD6IxUYGXQGX7AAAAAIDAAAHABEAc3RyLmRhdFVUDQAH+9VxVfvVcVX71XFV
-hZLLCsIwEEXvtoL/ILqp4MJXFXTlQteCX1BqfaB9kBY34r97kzRqNK2UTNrk3JnbSQqcECJH
-jA4Svp2R4o42WvBQcLXEgWtXPhEyxgwCPoYYVKOPpaK1QseE1E1ps4oNPkiPWWQVsz9xEHYG
-Tcwswjgs6Vkw5pxL/ov/p860wcncUcdFNOWo97omtcfW8mn2dNxUnV4pckdOMOeFuW1Vfa+1
-v6Zuj7j3y5hu1p33mHxAlT2/9YLKSJ1FiiNVMTWyS/qWyG5ITf0JSzffhO1bEy7XOatLsqQi
-JdllDJlf3ugFR+/13eOerX5wPAFQSwECFwsUAAAACAA+iMVGBl0Bl+wAAAACAwAABwAJAAAA
-AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH+9VxVVBLBQYAAAAAAQABAD4AAAAiAQAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAC6YxkZs2+xL6AAAAPwCAAAHABEAc3RyLmRhdFVUDQAHo0NzVaNDc1WjQ3NV
+hZLLCsIwEEXvtoL/ILqp4MJXFXTlQteCX1BqfaB9kBY34r970zTa2KZSMmky504uk2S4wEeK
+ED1E/LsixhNddOBwVxTrHC76nH0SIVYkB5/VgJkh1qVCxYz7OU7U3vkFSBgT1nIxxqgcWlPV
+RaQehTYpWa9COqwi3ej8rIEwKyhiYRDaYU7/gjHlnLMH7p9z5i1Olg3nNBFtNexet6SO2Bs+
+dU7FXdnpTUEeyAnWvLG2qbL3Wvlr6/aEuTqju2m77yl5jypz/uoFlUFxFzHOVIXUyC6pVyK7
+ITX2G5ZufgnTtyLqrl8cb1BLAQIXCxQAAAAIAC6YxkZs2+xL6AAAAPwCAAAHAAkAAAAAAAAA
+AAAAgAAAAABzdHIuZGF0VVQFAAejQ3NVUEsFBgAAAAABAAEAPgAAAB4BAAAAAA==</Image>
 				<AppliesTo>
-					<Apply type="Note"/>
 					<Apply type="Text"/>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
+					<Apply type="Note"/>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Storage Tank" metatype="Storage Tank" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABaGxUZYNHKFBwEAAFgDAAAHABEAc3RyLmRhdFVUDQAH29JxVdvScVXb0nFV
-jZJPC4JAEMXf1aDvEHYx8FDR/+jQIeoQBRV0DCuxQEu0ukTfvber1hqWITvjzvx2ZlZfiAMs
-+LBRgse3I064o4gCtNj6CGT0AgM6ZmQ80j3yZUajXZmZCvrxiYCRHXmLeQcudwbqqMKMbSe2
-TeVMZD2ccSN/oTckVaN9U66cxMZK5uus8A8huuZ36qbmyaqTT+TfSUz7vVvEtH90U4n/u2V/
-I7VWPpH1FYfY81niii1toiShk1CeDRhxGJnSb+ldZky05EytV1UTDfrP2qGizG/VEqVqZDeM
-irkdTl7CgEunCm2pXJtn9Vf9pIOqbZdWzD3BOqXlLGbJfz7HgrcfY5SiH9I/uJ5QSwECFwsU
-AAAACAAWhsVGWDRyhQcBAABYAwAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH29Jx
-VVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGSXxkau9/eeBgEAAIYDAAAHABEAc3RyLmRhdFVUDQAHFkNzVRZDc1UWQ3NV
+lVO7CsJAEJw2gv8gsYmQQgXfWFiIFoKggqVEPaKQqCRqI/67c5eHCZxGCTeb2519ZJmEOMDB
+BQIV+Hw74oQHyijBiPGCQHmvsGDSOuQJ9MmvprcqIzUM4oyAnh35DuMuPN4sNFGHHWM3xlYm
+J0IfZ9zJv9JaitUgvlmemkRgpeJNVviFIbsWd+rl5tHVKWYUf5Oc9nO3iNP50i3L+L2bfkfZ
+WsUM3RZH2PNZ4oYtMVGS1EmocgN6XHpmtFtajxEbbTVTO62qrx1mlPmpWqJUg9wNvXJul5NX
+MOQxqUKhlCuYa6b1DW7oH3Zi33+CR5RfOcU6p3wdZ0mFzLHgriYY59hPZZ88L1BLAQIXCxQA
+AAAIAGSXxkau9/eeBgEAAIYDAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcWQ3NV
+UEsFBgAAAAABAAEAPgAAADwBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -281,13 +406,13 @@ VVBLBQYAAAAAAQABAD4AAAA9AQAAAAA=</Image>
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="Storage Tank with internal Heat Exchanger" metatype="Storage Tank with internal Heat Exchanger" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="Tank" baseStereotypes="Tank">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAESHxUa2UswV6wAAAO4DAAAHABEAc3RyLmRhdFVUDQAHGtVxVRrVcVUa1XFV
-jZPJCsJAEETrquA/iLlE8OAWcPkaMQEFs2CiIOK/Wz1tEiYkMx5SzFL9umcyXeKCEwokmCLl
-6IoMb0wwxgglVyvczFrCWYUXZwlCzDjLzU7M8RzHX8Sdqw+6Y44SnBkRYoUlFlgb3RvdGY0a
-beNVU1KeJnfOeHEJo3XVFem+kv0O0W6moXxSp5vmd8gpu/nsTFKzr3a9K7+j73T92VyVK8vv
-+P9sGwdLX4PtUHW9vJixlfXqbKrwutTu/4mMIxp0KGPrYGjttsNfe3/X2OT65vrYBftKvMLP
-DDFjz6aQ7j3wC5p5YGUQ/fD7AlBLAQIXCxQAAAAIAESHxUa2UswV6wAAAO4DAAAHAAkAAAAA
-AAAAAAAAgAAAAABzdHIuZGF0VVQFAAca1XFVUEsFBgAAAAABAAEAPgAAACEBAAAAAA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGqXxkbUOPmq5gAAAOwDAAAHABEAc3RyLmRhdFVUDQAHKUNzVSlDc1UpQ3NV
+jZPLCsIwEEXvVsF/ELtRcOGr4ONrxAYUrJW2CiL+uzczvhLaxEWnmeTOuZM0rbDHFmcY9JFz
+dMAJd/TQRYezpeQ1hhjwvaXCYE1l8skSroyweVVorDhf4yi1hlmNGzMjlAqFrGROXcnZC9UZ
+RwY7cZxigjFmElcSlxLTT/R9c1Ku4l2w3qos46t6d6TrSo4rbPSd2vxsn2FaXGF36fu5Trbn
+WO96VnFF0+6a3UKdKyuu+H9v8wBLb4Or0Bi6eRlra+fWuVTL86n+90lFkbYqlLEIMLR3VxHv
+vfmvccnvk/tlf/kPPk9QSwECFwsUAAAACABql8ZG1Dj5quYAAADsAwAABwAJAAAAAAAAAAAA
+AIAAAAAAc3RyLmRhdFVUBQAHKUNzVVBLBQYAAAAAAQABAD4AAAAcAQAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
