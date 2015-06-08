@@ -213,14 +213,14 @@ AACAAAAAAHN0ci5kYXRVVAUAB4ZDc1VQSwUGAAAAAAEAAQA+AAAAsQAAAAAA</Image>
 						</AppliesTo>
 					</Stereotype>
 					<Stereotype name="Pipe" metatype="Pipe" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAM6bxkZsNcxQBgEAAPQCAAAHABEAc3RyLmRhdFVUDQAHT0pzVU9Kc1VPSnNV
-hZJPS8NAEMXfVcHvEHJKoWIVFcGbKCgUvaj30q61mJqSrKJIv7u/nRDYrK1l2NkZ9r03f9hG
-r5poJadMS6KF3vWjA+1rT0dYpms96ElXGuuGbKw73RO1iAae1wusEpuqwleqVehEZ9gwuQe6
-7DFLq+fIvL7JHMy8VzGPOEu0P41XgRuhOopeO6329Zi3FJH2/EU0o1unOVkFu9CpsQ6NP9SF
-+RCnKgsUCt2ysUaP+Ll1HnbZ6BlfWqc57AzvqfJh+QDr9ht68WBr/Irbwy+iSunEcW8xqj/5
-+Z+5U0Q71S6dTbOnmN212p7/V9k2lwMz27KZ7s9NDBP2WKP1BmcTfm13OGvOL1BLAQIXCxQA
-AAAIAM6bxkZsNcxQBgEAAPQCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdPSnNV
-UEsFBgAAAAABAAEAPgAAADwBAAAAAA==</Image>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHSIyEaPhdy8+AAAAMACAAAHABEAc3RyLmRhdFVUDQAH3sp1Vd7KdVXeynVV
+hZJPa8JAEMXf1YLfIXiKYFFLFcGbVLAgetHepcY/GI0kUQrF795fJgbSrVaGnZ1h35uZN2yi
+jRY6KpCnPdFWB32rqidV1MQ8vWmquQYaa0g21rsmRDkigZdqBSvEPhXhI8Xy9aIO1nDuuvpX
+5h7c2dgR6BaIVuk1tDmK1zZvLsLt/0W0pHOgNVkE29ersZ6N31DPfBa7VbZU8DVCfaIZfk1W
+s70k+sCHNmkNtodP6XKyvI4Vu8pmScHG+CN3Ct8vdXIVl2cro34r7/7R7SJyVY/q3NLuYh73
+ymf+v8o9XQGY5Z3NFP9nYZhsjzG1dnBu4S92Z+fC+QFQSwECFwsUAAAACAB0iMhGj4XcvPgA
+AADAAgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH3sp1VVBLBQYAAAAAAQABAD4A
+AAAuAQAAAAA=</Image>
 						<AppliesTo>
 							<Apply type="InformationFlow"/>
 							<Apply type="Connector">
