@@ -1,0 +1,11 @@
+#AutoCAD P&ID vs EA
+
+*Offers all components from ISO 15926
+*Broad range of components
+*Super slow and resource hungry
+*No limitations (AutoCAD lets me put valves on valves on valves etc.)
+*Overwhelming
+*Every element must be uniquely tagged (is this a standard requirement?)
+*Validates model based on ISO 15926
+*Elements cannot have any attributes
+*3D visualization of flows
